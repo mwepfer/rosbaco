@@ -28,7 +28,7 @@ private class TestUnidadVenta {
 
             Unidad__c u4 = new Unidad__c(name='2',Moneda_comision__c = m.id,  obra__c = o.id, Comercializadora__c = a.id , Estado__c = 'Disponible' , 	Fecha_boleto__c = date.today().addDays(45), Valor_real_operacion__c = 20000);
             insert u4;
-            //System.debug('MATU'+ date.today().addDays(45));
+            System.debug('MATU'+ date.today().addDays(45));
 
               u4.Estado__c = 'Vendida';
             update u4;
