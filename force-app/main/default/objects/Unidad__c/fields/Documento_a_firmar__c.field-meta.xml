@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Documento_a_firmar__c</fullName>
+    <externalId>false</externalId>
+    <label>Documento a firmar</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Boleto</fullName>
+                <default>false</default>
+                <label>Boleto</label>
+            </value>
+            <value>
+                <fullName>Cesion del boleto</fullName>
+                <default>false</default>
+                <label>Cesion del boleto</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

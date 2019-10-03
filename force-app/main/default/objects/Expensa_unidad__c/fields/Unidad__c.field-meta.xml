@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unidad__c</fullName>
+    <externalId>false</externalId>
+    <label>Unidad</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Unidad__c.Obra__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.Obra__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Unidad__c</referenceTo>
+    <relationshipLabel>Expensas unidades</relationshipLabel>
+    <relationshipName>Expensas_unidades</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

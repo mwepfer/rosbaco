@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Image_Display__c</fullName>
+    <description>Displays an image using the Image Document ID.</description>
+    <externalId>false</externalId>
+    <formula>IMAGE(IF(ISBLANK(Image_Document_ID__c), &quot;/resource/NoImage&quot;, &quot;/servlet/servlet.FileDownload?file=&quot; &amp; Image_Document_ID__c), &quot;Image Name&quot;)</formula>
+    <inlineHelpText>Displays in Product Catalog. Enter an Image Document ID to display an image for this product.</inlineHelpText>
+    <label>Catalog Image</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

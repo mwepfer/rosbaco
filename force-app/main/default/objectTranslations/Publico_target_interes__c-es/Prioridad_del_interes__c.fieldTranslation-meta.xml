@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Introducir un valor entre 1 y 10 donde 10 es el mas prioritario. --></help>
+    <label><!-- Prioridad del interes --></label>
+    <name>Prioridad_del_interes__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inventory__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Displays in Product Catalog.</inlineHelpText>
+    <label>Inventory</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>In Stock</fullName>
+                <default>true</default>
+                <label>In Stock</label>
+            </value>
+            <value>
+                <fullName>Limited Availability</fullName>
+                <default>false</default>
+                <label>Limited Availability</label>
+            </value>
+            <value>
+                <fullName>Out of Stock</fullName>
+                <default>false</default>
+                <label>Out of Stock</label>
+            </value>
+            <value>
+                <fullName>On Backorder</fullName>
+                <default>false</default>
+                <label>On Backorder</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

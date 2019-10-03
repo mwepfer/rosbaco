@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Mail_a_administracion_para_preparar_un_pago</fullName>
+        <description>Mail a administracion para preparar un pago</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>matias.wepfer@rosbacogroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Mail_para_administracion_preparacion_de_pago</template>
+    </alerts>
+    <alerts>
+        <fullName>Mail_a_solicitante_del_pago_con_ok_de_preparacion</fullName>
+        <description>Mail a solicitante del pago con ok de preparacion</description>
+        <protected>false</protected>
+        <recipients>
+            <field>LastModifiedById</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Mail_de_administracion_informando_ok_preparacion_de_pago</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Actualizar_estado_ingresada</fullName>
+        <field>Estado__c</field>
+        <literalValue>Ingresada</literalValue>
+        <name>Actualizar estado ingresada</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Actualizar_estado_pendiente_aprobacion</fullName>
+        <field>Estado__c</field>
+        <literalValue>Pendiente aprobación</literalValue>
+        <name>Actualizar estado pendiente aprobacion</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Aprobar_orden_de_pago</fullName>
+        <field>Estado__c</field>
+        <literalValue>Aprobada</literalValue>
+        <name>Aprobar orden de pago</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Orden_de_pago_convertir_a_dolares</fullName>
+        <field>Monto_convertido_a_dolares__c</field>
+        <formula>if(Moneda__r.Name = &#39;Pesos Argentinos&#39;, Monto__c /  Cotizacion_dolar__c ,Monto__c)</formula>
+        <name>Orden de pago convertir a dolares</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Orden_de_pago_convertir_a_pesos</fullName>
+        <field>Monto_convertido_a_pesos__c</field>
+        <formula>if(Moneda__r.Name = &#39;Dolares&#39;, Monto__c * Cotizacion_dolar__c ,Monto__c)</formula>
+        <name>Orden de pago convertir a pesos</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Orden_de_pago_ingresada</fullName>
+        <field>Estado__c</field>
+        <literalValue>Ingresada</literalValue>
+        <name>Orden de pago - ingresada</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Orden_de_pago_preparar_pago</fullName>
+        <field>Estado__c</field>
+        <literalValue>Preparar pago</literalValue>
+        <name>Orden de pago preparar pago</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Rechazar_orden_de_pago</fullName>
+        <field>Estado__c</field>
+        <literalValue>Anulada</literalValue>
+        <name>Rechazar orden de pago</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Notificar preparacion de pago</fullName>
+        <actions>
+            <name>Mail_a_administracion_para_preparar_un_pago</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Orden_de_pago__c.Estado__c</field>
+            <operation>equals</operation>
+            <value>Preparar pago</value>
+        </criteriaItems>
+        <description>Notificar a administracion de la necesidad de pagar un proveedor</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Orden de pago calcular montos</fullName>
+        <actions>
+            <name>Orden_de_pago_convertir_a_dolares</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Orden_de_pago_convertir_a_pesos</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>1=1</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

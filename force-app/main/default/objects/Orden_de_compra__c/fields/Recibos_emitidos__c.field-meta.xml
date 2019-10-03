@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recibos_emitidos__c</fullName>
+    <externalId>false</externalId>
+    <label>Recibos emitidos</label>
+    <summarizedField>Recibo__c.Importe_pagado__c</summarizedField>
+    <summaryForeignKey>Recibo__c.Orden_de_compra__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

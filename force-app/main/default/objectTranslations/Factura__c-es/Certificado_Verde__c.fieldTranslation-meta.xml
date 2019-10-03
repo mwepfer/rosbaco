@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Indique el número del certificado IANCOL de 8 dígitos --></help>
+    <label><!-- Certificado Verde anterior --></label>
+    <name>Certificado_Verde__c</name>
+</CustomFieldTranslation>

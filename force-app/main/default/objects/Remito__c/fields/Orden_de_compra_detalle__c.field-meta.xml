@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Orden_de_compra_detalle__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Orden de compra detalle</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Orden_de_compra_entrega__c.Orden_de_compra__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.Orden_de_compra__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Orden_de_compra_entrega__c</referenceTo>
+    <relationshipLabel>Remitos</relationshipLabel>
+    <relationshipName>Remitos</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

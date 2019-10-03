@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Etapa --></label>
+    <name>Etapa__c</name>
+    <picklistValues>
+        <masterLabel>Demolido</masterLabel>
+        <translation><!-- Demolido --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>En analisis</masterLabel>
+        <translation><!-- En analisis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>En aprobacion de planos</masterLabel>
+        <translation><!-- En aprobacion de planos --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>En demolicion</masterLabel>
+        <translation><!-- En demolicion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>En ejecucion</masterLabel>
+        <translation><!-- En ejecucion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Planos aprobados</masterLabel>
+        <translation><!-- Planos aprobados --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Terminado</masterLabel>
+        <translation><!-- Terminado --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

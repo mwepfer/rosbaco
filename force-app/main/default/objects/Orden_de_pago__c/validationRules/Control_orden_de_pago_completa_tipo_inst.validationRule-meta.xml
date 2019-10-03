@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Control_orden_de_pago_completa_tipo_inst</fullName>
+    <active>true</active>
+    <errorConditionFormula>if( 
+   ISPICKVAL(Estado__c, &quot;Pendiente Aprobación&quot;) == true , 
+ISPICKVAL(Tipo_instrumento__c, &quot;&quot;), false)</errorConditionFormula>
+    <errorDisplayField>Tipo_instrumento__c</errorDisplayField>
+    <errorMessage>Debe indicar el tipo de instrumento</errorMessage>
+</ValidationRule>

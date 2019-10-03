@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>jose.marin@mediahaus.com.ar</contactEmail>
+    <label>Landing</label>
+    <oauthConfig>
+        <callbackUrl>https://mediacore.com.ar/salesforce/</callbackUrl>
+        <consumerKey>3MVG9Z8h6Bxz0zc4NWhTFhzYWdl3RkAZmAHN9py8jW_yVf1Wuhh.QnWRztwOGkvHiw4peSkKg3T7pUve7SdSl</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <scopes>Api</scopes>
+        <scopes>CustomPermissions</scopes>
+    </oauthConfig>
+    <profileName>Landing</profileName>
+</ConnectedApp>

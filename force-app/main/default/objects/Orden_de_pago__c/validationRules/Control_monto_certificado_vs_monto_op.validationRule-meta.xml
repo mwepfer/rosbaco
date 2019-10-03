@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Control_monto_certificado_vs_monto_op</fullName>
+    <active>true</active>
+    <errorConditionFormula>if(  Requiere_certificaci_n__c  == true,  Monto_certificado__c &lt;  Monto__c , false)</errorConditionFormula>
+    <errorDisplayField>Monto__c</errorDisplayField>
+    <errorMessage>El monto de la orden de pago no puede superar lo certificado</errorMessage>
+</ValidationRule>

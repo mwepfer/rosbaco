@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Image_Document_ID__c</fullName>
+    <description>The Salesforce ID of the image document you wish to display in the Product Catalog.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Required for Product Catalog. The Salesforce ID of the image document you wish to display in the Product Catalog.</inlineHelpText>
+    <label>Image Document ID</label>
+    <length>18</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

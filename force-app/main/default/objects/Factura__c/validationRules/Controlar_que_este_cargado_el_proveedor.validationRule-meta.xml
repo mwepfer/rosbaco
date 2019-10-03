@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Controlar_que_este_cargado_el_proveedor</fullName>
+    <active>false</active>
+    <errorConditionFormula>if ( ISPICKVAL( Estado__c , &quot;Real&quot;) == true &amp;&amp; Proveedor_de_la_Factura__c == null, true, false)</errorConditionFormula>
+    <errorDisplayField>Proveedor_de_la_Factura__c</errorDisplayField>
+    <errorMessage>Para cargar una factura real es necesario declarar el proveedor de la factura</errorMessage>
+</ValidationRule>
