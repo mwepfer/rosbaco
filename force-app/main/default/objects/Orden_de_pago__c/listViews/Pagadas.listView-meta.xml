@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pagadas</fullName>
+    <columns>NAME</columns>
+    <columns>Orden_de_compra__c</columns>
+    <columns>Estado__c</columns>
+    <columns>Fecha_de_pago__c</columns>
+    <columns>Monto__c</columns>
+    <columns>Caja__c</columns>
+    <columns>Movimiento_de_caja__c</columns>
+    <columns>Moneda__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Estado__c</field>
+        <operation>equals</operation>
+        <value>Pagada</value>
+    </filters>
+    <filters>
+        <field>Caja__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Pagadas</label>
+</ListView>

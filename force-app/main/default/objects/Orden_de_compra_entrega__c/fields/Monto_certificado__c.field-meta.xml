@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Monto_certificado__c</fullName>
+    <externalId>false</externalId>
+    <label>Monto certificado</label>
+    <summarizedField>Certificacion_detalle__c.Valor_actual__c</summarizedField>
+    <summaryForeignKey>Certificacion_detalle__c.Orden_de_compra_detalle__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

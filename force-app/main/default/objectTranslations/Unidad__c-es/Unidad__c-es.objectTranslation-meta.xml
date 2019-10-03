@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Unidad</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Unidades</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Unidad</layout>
+        <sections>
+            <label><!-- Comercializadora --></label>
+            <section>Comercializadora</section>
+        </sections>
+        <sections>
+            <label><!-- Control de carga --></label>
+            <section>Control de carga</section>
+        </sections>
+        <sections>
+            <label><!-- Entrega de unidad --></label>
+            <section>Entrega de unidad</section>
+        </sections>
+        <sections>
+            <label><!-- Informacion de la Operacion de venta --></label>
+            <section>Informacion de la Operacion de venta</section>
+        </sections>
+        <sections>
+            <label><!-- Lista de precio Efectivo y Financiación --></label>
+            <section>Lista de precio Efectivo y Financiación</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato compacto</layout>
+        <sections>
+            <label><!-- Comercializadora --></label>
+            <section>Comercializadora</section>
+        </sections>
+        <sections>
+            <label><!-- Control de carga --></label>
+            <section>Control de carga</section>
+        </sections>
+        <sections>
+            <label><!-- Entrega de unidad --></label>
+            <section>Entrega de unidad</section>
+        </sections>
+        <sections>
+            <label><!-- Informacion de la Operacion de venta --></label>
+            <section>Informacion de la Operacion de venta</section>
+        </sections>
+        <sections>
+            <label><!-- Lista de precio Efectivo y Financiación --></label>
+            <section>Lista de precio Efectivo y Financiación</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Si el estado de la unidad es vendiida, los campos, comercializadora, fecha de boleto y valor real operacion deben estar completados. --></errorMessage>
+        <name>Validacion_de_unidad_vendida</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Libre_deuda --></label>
+        <name>Libre_deuda</name>
+    </webLinks>
+</CustomObjectTranslation>

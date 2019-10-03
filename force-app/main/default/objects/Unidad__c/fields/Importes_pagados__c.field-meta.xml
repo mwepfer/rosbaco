@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Importes_pagados__c</fullName>
+    <externalId>false</externalId>
+    <label>Importes pagados</label>
+    <summarizedField>Cobro_unidad__c.Importe_cobrado__c</summarizedField>
+    <summaryForeignKey>Cobro_unidad__c.Unidad__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

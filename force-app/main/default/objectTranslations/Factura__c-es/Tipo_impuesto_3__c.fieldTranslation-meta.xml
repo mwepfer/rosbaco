@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Tipo impuesto 3 --></label>
+    <name>Tipo_impuesto_3__c</name>
+    <picklistValues>
+        <masterLabel>IIBB</masterLabel>
+        <translation><!-- IIBB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IIBB Provincia</masterLabel>
+        <translation><!-- IIBB Provincia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IVA</masterLabel>
+        <translation><!-- IVA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Percepción IVA</masterLabel>
+        <translation><!-- Percepción IVA --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

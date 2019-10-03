@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_impuesto_2__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo impuesto 2</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>IVA</fullName>
+                <default>false</default>
+                <label>IVA</label>
+            </value>
+            <value>
+                <fullName>Percepción IVA</fullName>
+                <default>false</default>
+                <label>Percepción IVA</label>
+            </value>
+            <value>
+                <fullName>IIBB</fullName>
+                <default>false</default>
+                <label>IIBB</label>
+            </value>
+            <value>
+                <fullName>IIBB Provincia</fullName>
+                <default>false</default>
+                <label>IIBB Provincia</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

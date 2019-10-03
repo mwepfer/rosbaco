@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Sociedad de la factura --></label>
+    <name>Sociedad_de_la_factura__c</name>
+    <relationshipLabel><!-- Facturas (Sociedad que desarrolla) --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Forma de pago --></label>
+    <name>Forma_de_pago__c</name>
+    <picklistValues>
+        <masterLabel>Contra entrega</masterLabel>
+        <translation><!-- Contra entrega --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Efectivo</masterLabel>
+        <translation><!-- Efectivo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Financiado</masterLabel>
+        <translation><!-- Financiado --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Permuta</masterLabel>
+        <translation><!-- Permuta --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transferencia</masterLabel>
+        <translation><!-- Transferencia --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

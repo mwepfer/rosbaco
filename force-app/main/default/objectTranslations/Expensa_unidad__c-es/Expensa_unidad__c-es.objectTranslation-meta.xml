@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Expensa unidad</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Expensas unidades</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Expensa unidad</layout>
+        <sections>
+            <label><!-- Información del Pago --></label>
+            <section>Información del Pago</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- Expensas --></label>
+        <name>Expensas</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Ver_expensas --></label>
+        <name>Ver_expensas</name>
+    </webLinks>
+</CustomObjectTranslation>

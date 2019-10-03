@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Cuenta del cliente al que pertenece la obra --></help>
+    <label><!-- Sociedad que desarrolla --></label>
+    <name>sociedad_que_desarrolla__c</name>
+    <relationshipLabel><!-- Proyectos (Sociedad que desarrolla) --></relationshipLabel>
+</CustomFieldTranslation>

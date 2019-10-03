@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Periodo_indicador_valido</fullName>
+    <active>true</active>
+    <errorConditionFormula>!REGEX(
+ Periodo_indicador_base__c  ,
+&quot;^(\\d{2}\\-\\d{4})?$&quot;
+)</errorConditionFormula>
+    <errorDisplayField>Periodo_indicador_base__c</errorDisplayField>
+    <errorMessage>El formato valido es mm-yyyy</errorMessage>
+</ValidationRule>

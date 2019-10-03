@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Barrio__c</fullName>
+    <externalId>false</externalId>
+    <label>Barrio</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agronomía</fullName>
+                <default>false</default>
+                <label>Agronomía</label>
+            </value>
+            <value>
+                <fullName>Almagro</fullName>
+                <default>false</default>
+                <label>Almagro</label>
+            </value>
+            <value>
+                <fullName>Balvanera</fullName>
+                <default>false</default>
+                <label>Balvanera</label>
+            </value>
+            <value>
+                <fullName>Barracas</fullName>
+                <default>false</default>
+                <label>Barracas</label>
+            </value>
+            <value>
+                <fullName>Belgrano</fullName>
+                <default>false</default>
+                <label>Belgrano</label>
+            </value>
+            <value>
+                <fullName>Boedo</fullName>
+                <default>false</default>
+                <label>Boedo</label>
+            </value>
+            <value>
+                <fullName>Caballito</fullName>
+                <default>false</default>
+                <label>Caballito</label>
+            </value>
+            <value>
+                <fullName>Chacarita</fullName>
+                <default>false</default>
+                <label>Chacarita</label>
+            </value>
+            <value>
+                <fullName>Coghlan</fullName>
+                <default>false</default>
+                <label>Coghlan</label>
+            </value>
+            <value>
+                <fullName>Colegiales</fullName>
+                <default>false</default>
+                <label>Colegiales</label>
+            </value>
+            <value>
+                <fullName>Constitución</fullName>
+                <default>false</default>
+                <label>Constitución</label>
+            </value>
+            <value>
+                <fullName>Flores</fullName>
+                <default>false</default>
+                <label>Flores</label>
+            </value>
+            <value>
+                <fullName>Floresta</fullName>
+                <default>false</default>
+                <label>Floresta</label>
+            </value>
+            <value>
+                <fullName>La Boca</fullName>
+                <default>false</default>
+                <label>La Boca</label>
+            </value>
+            <value>
+                <fullName>La Paternal</fullName>
+                <default>false</default>
+                <label>La Paternal</label>
+            </value>
+            <value>
+                <fullName>Liniers</fullName>
+                <default>false</default>
+                <label>Liniers</label>
+            </value>
+            <value>
+                <fullName>Mataderos</fullName>
+                <default>false</default>
+                <label>Mataderos</label>
+            </value>
+            <value>
+                <fullName>Monte Castro</fullName>
+                <default>false</default>
+                <label>Monte Castro</label>
+            </value>
+            <value>
+                <fullName>Monserrat</fullName>
+                <default>false</default>
+                <label>Monserrat</label>
+            </value>
+            <value>
+                <fullName>Nueva Pompeya</fullName>
+                <default>false</default>
+                <label>Nueva Pompeya</label>
+            </value>
+            <value>
+                <fullName>Núñez</fullName>
+                <default>false</default>
+                <label>Núñez</label>
+            </value>
+            <value>
+                <fullName>Palermo</fullName>
+                <default>false</default>
+                <label>Palermo</label>
+            </value>
+            <value>
+                <fullName>Parque Avellaneda</fullName>
+                <default>false</default>
+                <label>Parque Avellaneda</label>
+            </value>
+            <value>
+                <fullName>Parque Chacabuco</fullName>
+                <default>false</default>
+                <label>Parque Chacabuco</label>
+            </value>
+            <value>
+                <fullName>Parque Chas</fullName>
+                <default>false</default>
+                <label>Parque Chas</label>
+            </value>
+            <value>
+                <fullName>Parque Patricios</fullName>
+                <default>false</default>
+                <label>Parque Patricios</label>
+            </value>
+            <value>
+                <fullName>Puerto Madero</fullName>
+                <default>false</default>
+                <label>Puerto Madero</label>
+            </value>
+            <value>
+                <fullName>Recoleta</fullName>
+                <default>false</default>
+                <label>Recoleta</label>
+            </value>
+            <value>
+                <fullName>Retiro</fullName>
+                <default>false</default>
+                <label>Retiro</label>
+            </value>
+            <value>
+                <fullName>Saavedra</fullName>
+                <default>false</default>
+                <label>Saavedra</label>
+            </value>
+            <value>
+                <fullName>San Cristóbal</fullName>
+                <default>false</default>
+                <label>San Cristóbal</label>
+            </value>
+            <value>
+                <fullName>San Nicolás</fullName>
+                <default>false</default>
+                <label>San Nicolás</label>
+            </value>
+            <value>
+                <fullName>San Telmo</fullName>
+                <default>false</default>
+                <label>San Telmo</label>
+            </value>
+            <value>
+                <fullName>Vélez Sársfield</fullName>
+                <default>false</default>
+                <label>Vélez Sársfield</label>
+            </value>
+            <value>
+                <fullName>Versalles</fullName>
+                <default>false</default>
+                <label>Versalles</label>
+            </value>
+            <value>
+                <fullName>Villa Crespo</fullName>
+                <default>false</default>
+                <label>Villa Crespo</label>
+            </value>
+            <value>
+                <fullName>Villa del Parque</fullName>
+                <default>false</default>
+                <label>Villa del Parque</label>
+            </value>
+            <value>
+                <fullName>Villa Devoto</fullName>
+                <default>false</default>
+                <label>Villa Devoto</label>
+            </value>
+            <value>
+                <fullName>Villa General Mitre</fullName>
+                <default>false</default>
+                <label>Villa General Mitre</label>
+            </value>
+            <value>
+                <fullName>Villa Lugano</fullName>
+                <default>false</default>
+                <label>Villa Lugano</label>
+            </value>
+            <value>
+                <fullName>Villa Luro</fullName>
+                <default>false</default>
+                <label>Villa Luro</label>
+            </value>
+            <value>
+                <fullName>Villa Ortúzar</fullName>
+                <default>false</default>
+                <label>Villa Ortúzar</label>
+            </value>
+            <value>
+                <fullName>Villa Pueyrredón</fullName>
+                <default>false</default>
+                <label>Villa Pueyrredón</label>
+            </value>
+            <value>
+                <fullName>Villa Real</fullName>
+                <default>false</default>
+                <label>Villa Real</label>
+            </value>
+            <value>
+                <fullName>Villa Riachuelo</fullName>
+                <default>false</default>
+                <label>Villa Riachuelo</label>
+            </value>
+            <value>
+                <fullName>Villa Santa Rita</fullName>
+                <default>false</default>
+                <label>Villa Santa Rita</label>
+            </value>
+            <value>
+                <fullName>Villa Soldati</fullName>
+                <default>false</default>
+                <label>Villa Soldati</label>
+            </value>
+            <value>
+                <fullName>Villa Urquiza</fullName>
+                <default>false</default>
+                <label>Villa Urquiza</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

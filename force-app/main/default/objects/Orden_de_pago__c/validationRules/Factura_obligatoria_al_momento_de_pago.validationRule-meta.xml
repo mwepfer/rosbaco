@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Factura_obligatoria_al_momento_de_pago</fullName>
+    <active>false</active>
+    <errorConditionFormula>if (  ISPICKVAL(Estado__c, &#39;Pagada&#39;)  &amp;&amp; Factura__c = null, true,false)</errorConditionFormula>
+    <errorDisplayField>Factura__c</errorDisplayField>
+    <errorMessage>Es obligatorio el ingreso del comprobante (Factura , recibo, remito) al momento del pago</errorMessage>
+</ValidationRule>

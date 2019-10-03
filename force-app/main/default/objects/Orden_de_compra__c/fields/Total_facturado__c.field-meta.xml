@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_facturado__c</fullName>
+    <externalId>false</externalId>
+    <label>Total facturado</label>
+    <summarizedField>Factura__c.Importe_total__c</summarizedField>
+    <summaryFilterItems>
+        <field>Factura__c.No_controlar_importe_OC__c</field>
+        <operation>equals</operation>
+        <value>False</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Factura__c.Orden_de_compra__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

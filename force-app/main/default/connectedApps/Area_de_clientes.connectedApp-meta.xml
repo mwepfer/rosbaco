@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>matias.wepfer@rosbacogroup.com</contactEmail>
+    <label>Area de clientes</label>
+    <oauthConfig>
+        <callbackUrl>https://www.rosbaco-group.com</callbackUrl>
+        <consumerKey>3MVG9Z8h6Bxz0zc4NWhTFhzYWdl3RkAZmAHN9_PYnawNLJeNagmAIFF3l.Tgk8LXBzw9rwcGK8Pg9ErJtI8OH</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>Full</scopes>
+        <scopes>Chatter</scopes>
+        <scopes>CustomApplications</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+        <scopes>CustomPermissions</scopes>
+        <scopes>Wave</scopes>
+        <scopes>Eclair</scopes>
+    </oauthConfig>
+</ConnectedApp>
