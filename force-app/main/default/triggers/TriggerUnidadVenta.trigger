@@ -98,19 +98,19 @@ trigger TriggerUnidadVenta on Unidad__c (after insert, after update, before dele
                                 odm.monto_actual_vendido__c += u.valor_real_operacion__c; //se acumula el monto actual.
                                 update odm;
                             }
-                        }   
-                    //si el array odms es nulo se debe crear un nuevo objetivo del mes        
+                        }
+                 //   si el array odms es nulo se debe crear un nuevo objetivo del mes        
                     }else{
                         Objetivo_del_mes__c odm2 = new Objetivo_del_mes__c (
                                                         objetivo_de_venta__c = odv.id,
                                                         Meta_en_dolares__c = 0,
                                                         mes__c= u.fecha_boleto__c); 
-                        insert odm2;   
-                    }    
-                //si el odvs es nulo
+                      insert odm2;   
+                   }    
+               // si el odvs es nulo
                 }else {
                     //se inserta nuevo objeto de venta y objeto de mes
-                    objetivo_de_venta__c odv2 = new  objetivo_de_venta__c (
+                   objetivo_de_venta__c odv2 = new  objetivo_de_venta__c (
                                                     comercializadora__c = u.comercializadora__c,
                                                      proyecto__c = u.obra__c );
                     insert odv2;
@@ -120,8 +120,10 @@ trigger TriggerUnidadVenta on Unidad__c (after insert, after update, before dele
                                                 Meta_en_dolares__c = 0,
                                                 mes__c= u.fecha_boleto__c); 
                     insert odm2;   
+                
+                    }
                 }
-            }
+            
             if(trigger.oldMap.get(u.Id).estado__c == 'Vendida' && u.estado__c == 'Disponible'){ 
                 // copiar el objetivo de venta en un array para despues chequear su tamaño
                 objetivo_de_venta__c[] odvs2 = [SELECT id,name FROM objetivo_de_venta__c 
@@ -155,29 +157,31 @@ trigger TriggerUnidadVenta on Unidad__c (after insert, after update, before dele
                             }
                         }   
                         //si el array odms es nulo se debe crear un nuevo objetivo del mes        
-                    }else{
-                        Objetivo_del_mes__c odm2 = new Objetivo_del_mes__c (
-                                                        objetivo_de_venta__c = odv.id,
-                                                        Meta_en_dolares__c = 0,
-                                                        mes__c= u.fecha_boleto__c); 
-                        insert odm2;   
-                    }    
+              //      }else{
+              //          Objetivo_del_mes__c odm2 = new Objetivo_del_mes__c (
+              //                                          objetivo_de_venta__c = odv.id,
+             //                                           Meta_en_dolares__c = 0,
+             //                                           mes__c= u.fecha_boleto__c); 
+              //          insert odm2;   
+            //        }    
                 //si el odvs es nulo
-                }else {
+           //     }else {
                     //se inserta nuevo objeto de venta y objeto de mes
-                    objetivo_de_venta__c odv2 = new  objetivo_de_venta__c (
-                                                    comercializadora__c = u.comercializadora__c,
-                                                     proyecto__c = u.obra__c );
-                    insert odv2;
-                    Objetivo_del_mes__c odm2 = new Objetivo_del_mes__c (
-                                                objetivo_de_venta__c = odv2.id,
-                                                Meta_en_dolares__c = 0,
-                                                mes__c= u.fecha_boleto__c); 
-                    insert odm2;   
-                }
-            }
-        }        
+          //          objetivo_de_venta__c odv2 = new  objetivo_de_venta__c (
+          //                                          comercializadora__c = u.comercializadora__c,
+          //                                           proyecto__c = u.obra__c );
+         //           insert odv2;
+         //           Objetivo_del_mes__c odm2 = new Objetivo_del_mes__c (
+        //                                        objetivo_de_venta__c = odv2.id,
+       //                                         Meta_en_dolares__c = 0,
+         //                                       mes__c= u.fecha_boleto__c); 
+       //             insert odm2;   
+                
+              }
+            }        
+        }
     }
+}
     if (trigger.isDelete) {
         for(Unidad__c u : Trigger.Old) {
             if(trigger.oldMap.get(u.Id).estado__c == 'Vendida' ){ 
