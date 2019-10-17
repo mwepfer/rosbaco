@@ -26,7 +26,7 @@ private class CalculoMayoresCostosTest {
         // TO DO: implement unit test
         Decimal num = 10;
         
-        Account a = new Account(name = 'test');
+        Account a = new Account(name = 'test', cbu__c = '1234567890123456789012');
         insert a;
 
         Moneda__c m = new Moneda__c(name = 'moneda test');

@@ -55,7 +55,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Sociedad_que_desarrolla__c</field>
+                <field>Sociedad_de_la_factura__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>

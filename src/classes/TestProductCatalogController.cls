@@ -12,7 +12,7 @@ private class TestProductCatalogController {
         tp.Default_Price__c = 1.00;
         tp.Family = 'TestFamily';
 
-        Account acct = new Account();
+        Account acct = new Account( cbu__c = '1234567890123456789012');
         acct.Name = 'a';
 
         Catalog_Order__c tOrder = new Catalog_Order__c();

@@ -29,7 +29,7 @@ private class Num2TextTest {
         Decimal num = 10;
         
         Num2Text nwcObj = new Num2Text();
-   		System.debug('devolucion en letras');
+   		//sSystem.debug('devolucion en letras');
             
         System.assertEquals('DIEZ   CON CERO  CENTAVOS', nwcObj.getNumberTOWordConvertion(num) );
         

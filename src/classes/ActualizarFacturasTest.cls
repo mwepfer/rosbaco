@@ -28,10 +28,10 @@ private class ActualizarFacturasTest {
         Id RecordTypeIdAccount = Schema.SObjectType.Account.getRecordTypeInfosByName().get('Proveedor').getRecordTypeId();
         Id RecordTypeIdAccountSociedad = Schema.SObjectType.Account.getRecordTypeInfosByName().get('Sociedad desarrolladora').getRecordTypeId();
         
-        Account a = new Account(name = 'test123', recordtypeid = RecordTypeIdAccount );
+        Account a = new Account(name = 'test123', recordtypeid = RecordTypeIdAccount , cbu__c = '1234567890123456789012');
         insert a;
 
-        Account so = new Account(name = 'test123', recordtypeid = RecordTypeIdAccountSociedad );
+        Account so = new Account(name = 'test123', recordtypeid = RecordTypeIdAccountSociedad , cbu__c = '1234567890123456789012');
         insert so;
 
         Moneda__c m = new Moneda__c(name = 'moneda test');

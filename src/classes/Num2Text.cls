@@ -1,4 +1,3 @@
-//test
 public class Num2Text {  
    
     public String getNumberTOWordConvertion(Decimal num) {
