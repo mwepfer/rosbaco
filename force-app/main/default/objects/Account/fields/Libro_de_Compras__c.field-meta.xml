@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Libro_de_Compras__c</fullName>
-    <defaultValue>false</defaultValue>
-    <externalId>false</externalId>
-    <label>Libro de Compras</label>
-    <trackFeedHistory>false</trackFeedHistory>
-    <type>Checkbox</type>
-</CustomField>

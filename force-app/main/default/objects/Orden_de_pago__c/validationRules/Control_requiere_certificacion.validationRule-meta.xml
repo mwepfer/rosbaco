@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Control_requiere_certificacion</fullName>
-    <active>true</active>
-    <errorConditionFormula>if( Requiere_certificaci_n__c == True, isnull( Certificacion__c ), false)</errorConditionFormula>
-    <errorDisplayField>Certificacion__c</errorDisplayField>
-    <errorMessage>Es necesario que seleccione una certificación</errorMessage>
-</ValidationRule>

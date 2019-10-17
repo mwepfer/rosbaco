@@ -1,0 +1,11 @@
+La siguiente OP {!Orden_de_pago__c.Proveedor__c} 
+esta por llegar a su fecha de pago.
+
+Verificar si el proveedor entregó el producto/servicio contratado.
+
+
+Monto: {!Orden_de_pago__c.Monto__c} 
+Fecha de pago estimada: {!Orden_de_pago__c.Fecha_de_pago__c} 
+Orden de pago: {!Orden_de_pago__c.Name}
+
+Link de la OP: {!Orden_de_pago__c.Link}

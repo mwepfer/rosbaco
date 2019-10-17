@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Fecha_ingreso_diferente_a_hoy</fullName>
-    <active>true</active>
-    <errorConditionFormula>if (isnew() , if ( Responsable_carga__r.Name != &#39;MAKISSON SALCEDO&#39;, if ( Fecha_ingreso__c != TODAY() ,true, false), false), false)</errorConditionFormula>
-    <errorDisplayField>Fecha_ingreso__c</errorDisplayField>
-    <errorMessage>La fecha de ingreso debe ser el dia de hoy</errorMessage>
-</ValidationRule>

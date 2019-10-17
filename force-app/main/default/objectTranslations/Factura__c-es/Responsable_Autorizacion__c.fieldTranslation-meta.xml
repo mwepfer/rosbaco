@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Responsable Autorización --></label>
-    <name>Responsable_Autorizacion__c</name>
-    <relationshipLabel><!-- Facturas (Responsable Autorización) --></relationshipLabel>
-</CustomFieldTranslation>

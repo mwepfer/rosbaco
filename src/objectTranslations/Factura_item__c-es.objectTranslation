@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Factura item</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Factura items</value>
+    </caseValues>
+    <fields>
+        <label><!-- Entregado? --></label>
+        <name>Entregado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Factura --></label>
+        <name>Factura__c</name>
+        <relationshipLabel><!-- Factura items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Fecha entrega --></label>
+        <name>Fecha_entrega__c</name>
+    </fields>
+    <gender>Masculine</gender>
+</CustomObjectTranslation>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Certificacion</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Certificaciones</value>
+    </caseValues>
+    <fields>
+        <label><!-- Acumulado anterior --></label>
+        <name>Acumulado_anterior__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acumulado total --></label>
+        <name>Acumulado_total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observaciones --></label>
+        <name>Observaciones__c</name>
+    </fields>
+    <fields>
+        <label><!-- Orden de compra --></label>
+        <name>Orden_de_compra__c</name>
+        <relationshipLabel><!-- Certificaciones --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Porcentaje avance acumulado --></label>
+        <name>Porcentaje_avance_acumulado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Porcentaje avance total --></label>
+        <name>Porcentaje_avance_total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total certificado --></label>
+        <name>Total_certificado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor actual --></label>
+        <name>Valor_actual__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato certificacion</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- Certificacion --></label>
+        <name>Certificacion</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Item orden de compra --></label>
-    <name>Item_orden_de_compra__c</name>
-    <relationshipLabel><!-- Cronogramas entregas items OC --></relationshipLabel>
-</CustomFieldTranslation>

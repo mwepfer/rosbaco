@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Presupuesto_base__c$Name</field>
+    </columns>
+    <columns>
+        <field>Presupuesto_base__c.Ordenes_de_compra__r$Name</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Presupuesto_base__c$Valor_en_dolares__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Presupuesto_base__c.Ordenes_de_compra__r$Valor_en_dolares_actualizado__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Presupuesto_base__c.Ordenes_de_compra__r$Ordenes_de_pago_convertidas_a_dolares__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Presupuesto_base__c.Ordenes_de_compra__r$Saldo_a_pagar_en_dolares_actualizados__c</field>
+    </columns>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Presupuesto_base__c$Obra__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Informe Presupuesto, OC, OP para tablero</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Presupuestos_con_ordenes_de_compra__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Presupuesto_base__c$Fecha__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

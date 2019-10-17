@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Gantt</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Gantts</value>
+    </caseValues>
+    <fields>
+        <label><!-- Obra --></label>
+        <name>Obra__c</name>
+        <relationshipLabel><!-- Gantts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Responsable --></label>
+        <name>Responsable__c</name>
+        <relationshipLabel><!-- Gantts --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Gantt</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

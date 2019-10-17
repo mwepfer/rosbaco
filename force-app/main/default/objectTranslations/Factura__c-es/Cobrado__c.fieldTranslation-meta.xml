@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- Completar SOLO para Facturas de Venta.
-Indique cuando la factura sea cobrada y complete los campos a continuación --></help>
-    <label><!-- Cobrado --></label>
-    <name>Cobrado__c</name>
-</CustomFieldTranslation>

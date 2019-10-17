@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- Indique la fecha de la efectiva recepción de los valores o acreditación de transferencia bancaria --></help>
-    <label><!-- Fecha de Cobro --></label>
-    <name>Fecha_de_Cobro__c</name>
-</CustomFieldTranslation>

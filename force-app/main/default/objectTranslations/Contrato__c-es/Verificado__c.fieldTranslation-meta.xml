@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- Validar si el Reporte de Avance en PBI esta OK. En ese caso se deja de utilizar el excel. --></help>
-    <label><!-- Verificado --></label>
-    <name>Verificado__c</name>
-</CustomFieldTranslation>

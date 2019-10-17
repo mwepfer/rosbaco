@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Responsable seguridad e hi --></label>
-    <name>Responsable_seguridad_e_hi__c</name>
-    <relationshipLabel><!-- Proyectos (Responsable seguridad e hi) --></relationshipLabel>
-</CustomFieldTranslation>

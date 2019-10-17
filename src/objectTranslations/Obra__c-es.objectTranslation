@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Proyecto</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Proyectos</value>
+    </caseValues>
+    <fields>
+        <label><!-- Caja cobro expensas --></label>
+        <name>Caja_cobro_expensas__c</name>
+        <relationshipLabel><!-- Proyectos --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Caratula para informes de avance --></label>
+        <name>Caratula_para_informes_de_avance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Construcción --></label>
+        <name>Construccion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Constructora --></label>
+        <name>Constructora__c</name>
+        <relationshipLabel><!-- Proyectos (Constructora) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contacto principal --></label>
+        <name>Contacto_principal__c</name>
+        <relationshipLabel><!-- Proyectos (Contacto principal) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contacto secundario --></label>
+        <name>Contacto_secundario__c</name>
+        <relationshipLabel><!-- Proyectos (Contacto secundario) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Coordenadas --></label>
+        <name>Coordenadas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Coordinador de obra --></label>
+        <name>Coordinador_de_obra__c</name>
+        <relationshipLabel><!-- Proyectos (Coordinador de obra) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Destino --></label>
+        <name>Destino__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destino de obra --></label>
+        <name>Destino_de_obra__c</name>
+        <picklistValues>
+            <masterLabel>Mixto</masterLabel>
+            <translation><!-- Mixto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oficinas</masterLabel>
+            <translation><!-- Oficinas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vivienda multifamiliar</masterLabel>
+            <translation><!-- Vivienda multifamiliar --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Direccion de obra --></label>
+        <name>Direccion_de_obra__c</name>
+        <relationshipLabel><!-- Proyectos (Direccion de obra) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Distrito --></label>
+        <name>Distrito__c</name>
+    </fields>
+    <fields>
+        <label><!-- Domicilio --></label>
+        <name>Domicilio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duración --></label>
+        <name>Duracion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estructuralista --></label>
+        <name>Estructuralista__c</name>
+        <relationshipLabel><!-- Proyectos (Estructuralista) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Etapa --></label>
+        <name>Etapa__c</name>
+        <picklistValues>
+            <masterLabel>Demolido</masterLabel>
+            <translation><!-- Demolido --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>En analisis</masterLabel>
+            <translation><!-- En analisis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>En aprobacion de planos</masterLabel>
+            <translation><!-- En aprobacion de planos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>En demolicion</masterLabel>
+            <translation><!-- En demolicion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>En ejecucion</masterLabel>
+            <translation><!-- En ejecucion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planos aprobados</masterLabel>
+            <translation><!-- Planos aprobados --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terminado</masterLabel>
+            <translation><!-- Terminado --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Fecha de finalización estimada --></label>
+        <name>Fecha_de_finalizacion_estimada__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha de inicio --></label>
+        <name>Fecha_de_inicio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha de registro --></label>
+        <name>Fecha_de_registro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jefe de obra --></label>
+        <name>Jefe_de_obra__c</name>
+        <relationshipLabel><!-- Proyectos (Jefe de obra) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Marca --></label>
+        <name>Marca__c</name>
+        <picklistValues>
+            <masterLabel>CO-LIVING</masterLabel>
+            <translation><!-- CO-LIVING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MOOD</masterLabel>
+            <translation><!-- MOOD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NETTING</masterLabel>
+            <translation><!-- NETTING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIA</masterLabel>
+            <translation><!-- VIA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Memoria --></label>
+        <name>Memoria__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nomenclatura catastral --></label>
+        <name>Nomenclatura_catastral__c</name>
+    </fields>
+    <fields>
+        <label><!-- Numero de expediente --></label>
+        <name>Numero_de_expediente__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observaciones de etapa --></label>
+        <name>Observaciones_de_etapa__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proyectista --></label>
+        <name>Proyectista__c</name>
+        <relationshipLabel><!-- Proyectos (Proyectista) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Proyecto --></label>
+        <name>Proyecto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proyecto de la constructora Rosbaco? --></label>
+        <name>Proyecto_de_la_constructora__c</name>
+    </fields>
+    <fields>
+        <label><!-- Representante tecnico --></label>
+        <name>Representante_tecnico__c</name>
+        <relationshipLabel><!-- Proyectos (Representante tecnico) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Responsable seguridad e hi --></label>
+        <name>Responsable_seguridad_e_hi__c</name>
+        <relationshipLabel><!-- Proyectos (Responsable seguridad e hi) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- En metros cuadrados --></help>
+        <label><!-- Superficie terreno --></label>
+        <name>Superficie__c</name>
+    </fields>
+    <fields>
+        <label><!-- Superficie a contruir --></label>
+        <name>Superficie_a_contruir__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de obra --></label>
+        <name>Tipo_de_obra__c</name>
+        <picklistValues>
+            <masterLabel>Ampliación</masterLabel>
+            <translation><!-- Ampliación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Obra nueva</masterLabel>
+            <translation><!-- Obra nueva --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remodelación</masterLabel>
+            <translation><!-- Remodelación --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipologia --></label>
+        <name>Tipologia__c</name>
+    </fields>
+    <fields>
+        <help><!-- Cuenta del cliente al que pertenece la obra --></help>
+        <label><!-- Sociedad que desarrolla --></label>
+        <name>sociedad_que_desarrolla__c</name>
+        <relationshipLabel><!-- Proyectos (Sociedad que desarrolla) --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Obra</layout>
+        <sections>
+            <label><!-- Ficha técnica --></label>
+            <section>Ficha técnica</section>
+        </sections>
+        <sections>
+            <label><!-- Memoria --></label>
+            <section>Memoria</section>
+        </sections>
+        <sections>
+            <label><!-- Responsables de la obra --></label>
+            <section>Responsables de la obra</section>
+        </sections>
+        <sections>
+            <label><!-- Responsables del proyecto --></label>
+            <section>Responsables del proyecto</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

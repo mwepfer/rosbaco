@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Lote</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Lotes</value>
+    </caseValues>
+    <fields>
+        <label><!-- Costo total --></label>
+        <name>Costo_total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dirección --></label>
+        <name>Direccion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ex propietario --></label>
+        <name>Ex_propietario__c</name>
+        <relationshipLabel><!-- Lotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Fecha boleto --></label>
+        <name>Fecha_boleto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha de Boleto --></label>
+        <name>Fecha_de_Boleto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha de Posesión --></label>
+        <name>Fecha_de_Posesion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha escritura --></label>
+        <name>Fecha_escritura__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha expediente unificación --></label>
+        <name>Fecha_expediente_unificaci_n__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha poseción --></label>
+        <name>Fecha_posecion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forma de pago --></label>
+        <name>Forma_de_pago__c</name>
+        <picklistValues>
+            <masterLabel>Contado</masterLabel>
+            <translation><!-- Contado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financiado</masterLabel>
+            <translation><!-- Financiado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mixto</masterLabel>
+            <translation><!-- Mixto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Permuta por metros</masterLabel>
+            <translation><!-- Permuta por metros --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Importe Saldado --></label>
+        <name>Importe_Saldado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lote unificado --></label>
+        <name>Lote_unificado__c</name>
+        <relationshipLabel><!-- Lotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Moneda --></label>
+        <name>Moneda__c</name>
+        <relationshipLabel><!-- Lotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Nomenclatura catastral --></label>
+        <name>Nomenclatura_catastral__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obra --></label>
+        <name>Obra__c</name>
+        <relationshipLabel><!-- Lotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Observaciones --></label>
+        <name>Observaciones__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partida inmobiliaria --></label>
+        <name>Partida_inmobiliaria__c</name>
+    </fields>
+    <fields>
+        <label><!-- Saldado --></label>
+        <name>Saldado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sociedad Asociada --></label>
+        <name>Sociedad_Asociada__c</name>
+        <relationshipLabel><!-- Lotes (Sociedad Asociada) --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Lote</layout>
+        <sections>
+            <label><!-- Observaciones --></label>
+            <section>Observaciones</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

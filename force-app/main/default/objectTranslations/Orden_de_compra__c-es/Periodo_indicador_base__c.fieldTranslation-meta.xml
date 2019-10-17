@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Periodo indicador base --></label>
-    <name>Periodo_indicador_base__c</name>
-</CustomFieldTranslation>

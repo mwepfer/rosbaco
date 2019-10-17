@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Control_orden_de_pago_completa_referenci</fullName>
-    <active>true</active>
-    <errorConditionFormula>if( 
-   ISPICKVAL(Estado__c, &quot;Pendiente Aprobación&quot;) == true &amp;&amp; Referencia_de_pago__c == &quot;&quot;, true, false)</errorConditionFormula>
-    <errorDisplayField>Referencia_de_pago__c</errorDisplayField>
-    <errorMessage>Debe indicar la referencia de pago</errorMessage>
-</ValidationRule>

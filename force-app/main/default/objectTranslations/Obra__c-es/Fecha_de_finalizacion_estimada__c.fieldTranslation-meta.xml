@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Fecha de finalización estimada --></label>
-    <name>Fecha_de_finalizacion_estimada__c</name>
-</CustomFieldTranslation>

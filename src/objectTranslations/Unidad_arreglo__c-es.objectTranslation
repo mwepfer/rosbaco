@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Arreglo</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Arreglos</value>
+    </caseValues>
+    <fields>
+        <label><!-- Factura --></label>
+        <name>Factura__c</name>
+        <relationshipLabel><!-- Arreglos --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Fecha solucion --></label>
+        <name>Fecha_solucion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resuelto --></label>
+        <name>Resuelto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unidad --></label>
+        <name>Unidad__c</name>
+        <relationshipLabel><!-- Arreglos --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+</CustomObjectTranslation>

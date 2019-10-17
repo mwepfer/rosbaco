@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Contacto secundario --></label>
-    <name>Contacto_secundario__c</name>
-    <relationshipLabel><!-- Proyectos (Contacto secundario) --></relationshipLabel>
-</CustomFieldTranslation>

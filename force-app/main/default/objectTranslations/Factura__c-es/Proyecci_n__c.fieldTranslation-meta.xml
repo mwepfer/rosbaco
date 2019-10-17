@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- Completar SOLO para Facturas de Venta.
-Tildar si la Factura es una proyección de honorarios futuros. --></help>
-    <label><!-- Proyectado --></label>
-    <name>Proyecci_n__c</name>
-</CustomFieldTranslation>

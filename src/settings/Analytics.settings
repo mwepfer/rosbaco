@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnalyticsSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <enableAutoCompleteCombo>true</enableAutoCompleteCombo>
+    <enableDashboardComponentSnapshot>true</enableDashboardComponentSnapshot>
+    <enableDashboardFlexiTable>true</enableDashboardFlexiTable>
+    <enableEmailReportsToPortalUsers>false</enableEmailReportsToPortalUsers>
+    <enableFloatingReportHeaders>true</enableFloatingReportHeaders>
+    <enableInsights>false</enableInsights>
+    <enableLightningReportBuilder>false</enableLightningReportBuilder>
+    <enableLotusNotesImages>false</enableLotusNotesImages>
+    <enableMassEnableReportBuilder>true</enableMassEnableReportBuilder>
+    <enableNewChartsEngine>true</enableNewChartsEngine>
+    <enableRemoveFooterForRepDisplay>false</enableRemoveFooterForRepDisplay>
+    <enableRemoveFooterFromRepExp>true</enableRemoveFooterFromRepExp>
+    <enableReportFieldToFieldPref>false</enableReportFieldToFieldPref>
+    <enableReportUniqueRowCountPref>false</enableReportUniqueRowCountPref>
+    <enableSFXJoinedReportsEnable>false</enableSFXJoinedReportsEnable>
+    <enableUseOldChartsLookAndFeel>false</enableUseOldChartsLookAndFeel>
+    <enableWaveReplication>false</enableWaveReplication>
+    <enableWaveSharingInheritance>false</enableWaveSharingInheritance>
+    <enableWaveTemplate>false</enableWaveTemplate>
+</AnalyticsSettings>

@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Barrio__c</fullName>
+        <externalId>false</externalId>
+        <label>Barrio</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Agronomía</fullName>
+                    <default>false</default>
+                    <label>Agronomía</label>
+                </value>
+                <value>
+                    <fullName>Almagro</fullName>
+                    <default>false</default>
+                    <label>Almagro</label>
+                </value>
+                <value>
+                    <fullName>Balvanera</fullName>
+                    <default>false</default>
+                    <label>Balvanera</label>
+                </value>
+                <value>
+                    <fullName>Barracas</fullName>
+                    <default>false</default>
+                    <label>Barracas</label>
+                </value>
+                <value>
+                    <fullName>Belgrano</fullName>
+                    <default>false</default>
+                    <label>Belgrano</label>
+                </value>
+                <value>
+                    <fullName>Boedo</fullName>
+                    <default>false</default>
+                    <label>Boedo</label>
+                </value>
+                <value>
+                    <fullName>Caballito</fullName>
+                    <default>false</default>
+                    <label>Caballito</label>
+                </value>
+                <value>
+                    <fullName>Chacarita</fullName>
+                    <default>false</default>
+                    <label>Chacarita</label>
+                </value>
+                <value>
+                    <fullName>Coghlan</fullName>
+                    <default>false</default>
+                    <label>Coghlan</label>
+                </value>
+                <value>
+                    <fullName>Colegiales</fullName>
+                    <default>false</default>
+                    <label>Colegiales</label>
+                </value>
+                <value>
+                    <fullName>Constitución</fullName>
+                    <default>false</default>
+                    <label>Constitución</label>
+                </value>
+                <value>
+                    <fullName>Flores</fullName>
+                    <default>false</default>
+                    <label>Flores</label>
+                </value>
+                <value>
+                    <fullName>Floresta</fullName>
+                    <default>false</default>
+                    <label>Floresta</label>
+                </value>
+                <value>
+                    <fullName>La Boca</fullName>
+                    <default>false</default>
+                    <label>La Boca</label>
+                </value>
+                <value>
+                    <fullName>La Paternal</fullName>
+                    <default>false</default>
+                    <label>La Paternal</label>
+                </value>
+                <value>
+                    <fullName>Liniers</fullName>
+                    <default>false</default>
+                    <label>Liniers</label>
+                </value>
+                <value>
+                    <fullName>Mataderos</fullName>
+                    <default>false</default>
+                    <label>Mataderos</label>
+                </value>
+                <value>
+                    <fullName>Monte Castro</fullName>
+                    <default>false</default>
+                    <label>Monte Castro</label>
+                </value>
+                <value>
+                    <fullName>Monserrat</fullName>
+                    <default>false</default>
+                    <label>Monserrat</label>
+                </value>
+                <value>
+                    <fullName>Nueva Pompeya</fullName>
+                    <default>false</default>
+                    <label>Nueva Pompeya</label>
+                </value>
+                <value>
+                    <fullName>Núñez</fullName>
+                    <default>false</default>
+                    <label>Núñez</label>
+                </value>
+                <value>
+                    <fullName>Palermo</fullName>
+                    <default>false</default>
+                    <label>Palermo</label>
+                </value>
+                <value>
+                    <fullName>Parque Avellaneda</fullName>
+                    <default>false</default>
+                    <label>Parque Avellaneda</label>
+                </value>
+                <value>
+                    <fullName>Parque Chacabuco</fullName>
+                    <default>false</default>
+                    <label>Parque Chacabuco</label>
+                </value>
+                <value>
+                    <fullName>Parque Chas</fullName>
+                    <default>false</default>
+                    <label>Parque Chas</label>
+                </value>
+                <value>
+                    <fullName>Parque Patricios</fullName>
+                    <default>false</default>
+                    <label>Parque Patricios</label>
+                </value>
+                <value>
+                    <fullName>Puerto Madero</fullName>
+                    <default>false</default>
+                    <label>Puerto Madero</label>
+                </value>
+                <value>
+                    <fullName>Recoleta</fullName>
+                    <default>false</default>
+                    <label>Recoleta</label>
+                </value>
+                <value>
+                    <fullName>Retiro</fullName>
+                    <default>false</default>
+                    <label>Retiro</label>
+                </value>
+                <value>
+                    <fullName>Saavedra</fullName>
+                    <default>false</default>
+                    <label>Saavedra</label>
+                </value>
+                <value>
+                    <fullName>San Cristóbal</fullName>
+                    <default>false</default>
+                    <label>San Cristóbal</label>
+                </value>
+                <value>
+                    <fullName>San Nicolás</fullName>
+                    <default>false</default>
+                    <label>San Nicolás</label>
+                </value>
+                <value>
+                    <fullName>San Telmo</fullName>
+                    <default>false</default>
+                    <label>San Telmo</label>
+                </value>
+                <value>
+                    <fullName>Vélez Sársfield</fullName>
+                    <default>false</default>
+                    <label>Vélez Sársfield</label>
+                </value>
+                <value>
+                    <fullName>Versalles</fullName>
+                    <default>false</default>
+                    <label>Versalles</label>
+                </value>
+                <value>
+                    <fullName>Villa Crespo</fullName>
+                    <default>false</default>
+                    <label>Villa Crespo</label>
+                </value>
+                <value>
+                    <fullName>Villa del Parque</fullName>
+                    <default>false</default>
+                    <label>Villa del Parque</label>
+                </value>
+                <value>
+                    <fullName>Villa Devoto</fullName>
+                    <default>false</default>
+                    <label>Villa Devoto</label>
+                </value>
+                <value>
+                    <fullName>Villa General Mitre</fullName>
+                    <default>false</default>
+                    <label>Villa General Mitre</label>
+                </value>
+                <value>
+                    <fullName>Villa Lugano</fullName>
+                    <default>false</default>
+                    <label>Villa Lugano</label>
+                </value>
+                <value>
+                    <fullName>Villa Luro</fullName>
+                    <default>false</default>
+                    <label>Villa Luro</label>
+                </value>
+                <value>
+                    <fullName>Villa Ortúzar</fullName>
+                    <default>false</default>
+                    <label>Villa Ortúzar</label>
+                </value>
+                <value>
+                    <fullName>Villa Pueyrredón</fullName>
+                    <default>false</default>
+                    <label>Villa Pueyrredón</label>
+                </value>
+                <value>
+                    <fullName>Villa Real</fullName>
+                    <default>false</default>
+                    <label>Villa Real</label>
+                </value>
+                <value>
+                    <fullName>Villa Riachuelo</fullName>
+                    <default>false</default>
+                    <label>Villa Riachuelo</label>
+                </value>
+                <value>
+                    <fullName>Villa Santa Rita</fullName>
+                    <default>false</default>
+                    <label>Villa Santa Rita</label>
+                </value>
+                <value>
+                    <fullName>Villa Soldati</fullName>
+                    <default>false</default>
+                    <label>Villa Soldati</label>
+                </value>
+                <value>
+                    <fullName>Villa Urquiza</fullName>
+                    <default>false</default>
+                    <label>Villa Urquiza</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tipo__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Club</fullName>
+                    <default>false</default>
+                    <label>Club</label>
+                </value>
+                <value>
+                    <fullName>Educacion</fullName>
+                    <default>false</default>
+                    <label>Educacion</label>
+                </value>
+                <value>
+                    <fullName>Entretenimiento</fullName>
+                    <default>false</default>
+                    <label>Entretenimiento</label>
+                </value>
+                <value>
+                    <fullName>Espacio publico</fullName>
+                    <default>false</default>
+                    <label>Espacio publico</label>
+                </value>
+                <value>
+                    <fullName>Esparcimiento</fullName>
+                    <default>false</default>
+                    <label>Esparcimiento</label>
+                </value>
+                <value>
+                    <fullName>Institucion religiosa</fullName>
+                    <default>false</default>
+                    <label>Institucion religiosa</label>
+                </value>
+                <value>
+                    <fullName>Organizmo estatal</fullName>
+                    <default>false</default>
+                    <label>Organizmo estatal</label>
+                </value>
+                <value>
+                    <fullName>Otro</fullName>
+                    <default>false</default>
+                    <label>Otro</label>
+                </value>
+                <value>
+                    <fullName>Restaurante</fullName>
+                    <default>false</default>
+                    <label>Restaurante</label>
+                </value>
+                <value>
+                    <fullName>Transporte</fullName>
+                    <default>false</default>
+                    <label>Transporte</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <gender>Masculine</gender>
+    <label>Punto de interes</label>
+    <nameField>
+        <label>Nombre de Punto de interes</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Puntos de interes</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

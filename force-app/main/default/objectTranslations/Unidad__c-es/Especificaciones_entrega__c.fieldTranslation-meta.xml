@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- Incorporar las condiciones acordadas con el propietarios para la entrega de la unidad --></help>
-    <label><!-- Especificaciones entrega --></label>
-    <name>Especificaciones_entrega__c</name>
-</CustomFieldTranslation>

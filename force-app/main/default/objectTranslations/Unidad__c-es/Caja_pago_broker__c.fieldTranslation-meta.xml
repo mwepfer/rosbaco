@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Caja pago broker --></label>
-    <name>Caja_pago_broker__c</name>
-    <relationshipLabel><!-- Unidades (Caja pago broker) --></relationshipLabel>
-</CustomFieldTranslation>

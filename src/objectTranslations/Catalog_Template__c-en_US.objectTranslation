@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Catalog Template</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Catalog Template</value>
+    </caseValues>
+    <fields>
+        <label><!-- Category Text Color --></label>
+        <name>Category_Text_Color__c</name>
+    </fields>
+    <fields>
+        <label><!-- Header Left Text Color --></label>
+        <name>Header_Left_Text_Color__c</name>
+    </fields>
+    <fields>
+        <label><!-- Header Right Text Color --></label>
+        <name>Header_Right_Text_Color__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subtitle Text Color --></label>
+        <name>Subtitle_Text_Color__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subtitle Text Size --></label>
+        <name>Subtitle_Text_Size__c</name>
+        <picklistValues>
+            <masterLabel>18px</masterLabel>
+            <translation><!-- 18px --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24px</masterLabel>
+            <translation><!-- 24px --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>36px</masterLabel>
+            <translation><!-- 36px --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>48px</masterLabel>
+            <translation><!-- 48px --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Subtitle Text --></label>
+        <name>Subtitle_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title Text Color --></label>
+        <name>Title_Text_Color__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title Text Size --></label>
+        <name>Title_Text_Size__c</name>
+        <picklistValues>
+            <masterLabel>40px</masterLabel>
+            <translation><!-- 40px --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>48px</masterLabel>
+            <translation><!-- 48px --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>56px</masterLabel>
+            <translation><!-- 56px --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>64px</masterLabel>
+            <translation><!-- 64px --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>72px</masterLabel>
+            <translation><!-- 72px --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80px</masterLabel>
+            <translation><!-- 80px --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>84px</masterLabel>
+            <translation><!-- 84px --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>88px</masterLabel>
+            <translation><!-- 88px --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Title Text --></label>
+        <name>Title_Text__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

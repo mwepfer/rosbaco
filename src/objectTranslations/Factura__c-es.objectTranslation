@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Factura</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Facturas</value>
+    </caseValues>
+    <fields>
+        <label><!-- Actualizacion batch --></label>
+        <name>Actualizacion_batch__c</name>
+    </fields>
+    <fields>
+        <label><!-- Buscar ultimo valor conocido --></label>
+        <name>Buscar_ultimo_valor_conocido__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indique el número del certificado IANCOL de 8 dígitos --></help>
+        <label><!-- Certificado Verde anterior --></label>
+        <name>Certificado_Verde__c</name>
+    </fields>
+    <fields>
+        <label><!-- Certificado verde --></label>
+        <name>Certificado_verde_nuevo__c</name>
+    </fields>
+    <fields>
+        <help><!-- Completar SOLO para Facturas de Venta.
+Indique cuando la factura sea cobrada y complete los campos a continuación --></help>
+        <label><!-- Cobrado --></label>
+        <name>Cobrado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Coeficiente --></label>
+        <name>Coeficiente__c</name>
+    </fields>
+    <fields>
+        <help><!-- Seleccione el Nombre del Cliente vinculado a la Obra --></help>
+        <label><!-- Comitente --></label>
+        <name>Comitente__c</name>
+        <relationshipLabel><!-- Facturas (Comitente) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Comprobante --></label>
+        <name>Comprobante__c</name>
+        <picklistValues>
+            <masterLabel>Factura A</masterLabel>
+            <translation><!-- Factura A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Factura B</masterLabel>
+            <translation><!-- Factura B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Factura C</masterLabel>
+            <translation><!-- Factura C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nota Crédito A</masterLabel>
+            <translation><!-- Nota Crédito A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nota Crédito B</masterLabel>
+            <translation><!-- Nota Crédito B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nota Crédito C</masterLabel>
+            <translation><!-- Nota Crédito C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nota Débito A</masterLabel>
+            <translation><!-- Nota Débito A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nota Débito B</masterLabel>
+            <translation><!-- Nota Débito B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nota Débito C</masterLabel>
+            <translation><!-- Nota Débito C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Presupuesto</masterLabel>
+            <translation><!-- Presupuesto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recibo</masterLabel>
+            <translation><!-- Recibo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remito</masterLabel>
+            <translation><!-- Remito --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Condicion de IVA --></label>
+        <name>Condicion_de_IVA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contrato --></label>
+        <name>Contrato__c</name>
+        <relationshipLabel><!-- Facturas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cotización --></label>
+        <name>Cotizacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cuit proveedor --></label>
+        <name>Cuit_proveedor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Desacopio anticipo --></label>
+        <name>Desacopio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descripción --></label>
+        <name>Descricion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Es anticipo --></label>
+        <name>Es_anticipo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Es mayor costo? --></label>
+        <name>Es_mayor_costo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estado --></label>
+        <name>Estado__c</name>
+        <picklistValues>
+            <masterLabel>Provisoria</masterLabel>
+            <translation><!-- Provisoria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real</masterLabel>
+            <translation><!-- Real --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Estado de Cobro --></label>
+        <name>Estado_de_Cobro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Factura principal --></label>
+        <name>Factura_principal__c</name>
+        <relationshipLabel><!-- Facturas principales --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Completar SOLO para Facturas de Venta.
+Indicar fecha de vencimiento recurrente o de lo contrario la que figura en el contrato --></help>
+        <label><!-- Fecha Vencimiento --></label>
+        <name>Fecha_Vencimiento__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha --></label>
+        <name>Fecha__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha autorización GO --></label>
+        <name>Fecha_autorizacion_GO__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indique la fecha de la efectiva recepción de los valores o acreditación de transferencia bancaria --></help>
+        <label><!-- Fecha de Cobro --></label>
+        <name>Fecha_de_Cobro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha de revisión --></label>
+        <name>Fecha_de_revision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha de salida --></label>
+        <name>Fecha_de_salida__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha ingreso --></label>
+        <name>Fecha_ingreso__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importe exento --></label>
+        <name>Importe_exento__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importe iva 10,5% --></label>
+        <name>Importe_iva_10_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importe iva 21% --></label>
+        <name>Importe_iva_21__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importe iva 27% --></label>
+        <name>Importe_iva_27__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importe neto gravado --></label>
+        <name>Importe_neto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importe neto no gravado --></label>
+        <name>Importe_neto_no_gravado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importe otros conceptos --></label>
+        <name>Importe_otros_conceptos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importe percepcion IIBB --></label>
+        <name>Importe_percepcion_IIBB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importe percepcion IVA --></label>
+        <name>Importe_percepcion_IVA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importe total --></label>
+        <name>Importe_total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importes pagados --></label>
+        <name>Importes_pagados__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impuesto 1 --></label>
+        <name>Impuesto_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impuesto 2 --></label>
+        <name>Impuesto_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impuesto 3 --></label>
+        <name>Impuesto_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impuestos --></label>
+        <name>Impuestos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Indicador10 --></label>
+        <name>Indicador10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Indicador1 --></label>
+        <name>Indicador1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Indicador2 --></label>
+        <name>Indicador2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Indicador3 --></label>
+        <name>Indicador3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Indicador4 --></label>
+        <name>Indicador4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Indicador5 --></label>
+        <name>Indicador5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Indicador6 --></label>
+        <name>Indicador6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Indicador7 --></label>
+        <name>Indicador7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Indicador8 --></label>
+        <name>Indicador8__c</name>
+    </fields>
+    <fields>
+        <label><!-- Indicador9 --></label>
+        <name>Indicador9__c</name>
+    </fields>
+    <fields>
+        <help><!-- Utilizado unicamente por los comprobantes de la constructora --></help>
+        <label><!-- Instrumento de pago constructora --></label>
+        <name>Instrumento_de_pago_constructora__c</name>
+        <picklistValues>
+            <masterLabel>Cheque</masterLabel>
+            <translation><!-- Cheque --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo</masterLabel>
+            <translation><!-- Efectivo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia</masterLabel>
+            <translation><!-- Transferencia --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Leyenda certificado --></label>
+        <name>Leyenda_certificado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Moneda --></label>
+        <name>Moneda__c</name>
+        <relationshipLabel><!-- Facturas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Monto Cobrado --></label>
+        <name>Monto_Cobrado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monto total --></label>
+        <name>Monto_total__c</name>
+    </fields>
+    <fields>
+        <label><!-- No controlar importe OC --></label>
+        <name>No_controlar_importe_OC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre indicador10 --></label>
+        <name>Nombre_indicador10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre indicador1 --></label>
+        <name>Nombre_indicador1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre indicador2 --></label>
+        <name>Nombre_indicador2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre indicador3 --></label>
+        <name>Nombre_indicador3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre indicador4 --></label>
+        <name>Nombre_indicador4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre indicador5 --></label>
+        <name>Nombre_indicador5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre indicador6 --></label>
+        <name>Nombre_indicador6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre indicador7 --></label>
+        <name>Nombre_indicador7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre indicador8 --></label>
+        <name>Nombre_indicador8__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre indicador9 --></label>
+        <name>Nombre_indicador9__c</name>
+    </fields>
+    <fields>
+        <label><!-- Número Nota de Crédito --></label>
+        <name>Numero_Nota_de_Credito__c</name>
+    </fields>
+    <fields>
+        <label><!-- Número --></label>
+        <name>Numero__c</name>
+    </fields>
+    <fields>
+        <label><!-- Numero de Recibo --></label>
+        <name>Numero_de_Recibo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Numero de Certificado --></label>
+        <name>Numero_de_certificado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Número de póliza --></label>
+        <name>Numero_de_poliza__c</name>
+    </fields>
+    <fields>
+        <label><!-- Orden de compra --></label>
+        <name>Orden_de_compra__c</name>
+        <relationshipLabel><!-- Facturas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Periodo Venta --></label>
+        <name>Periodo_Venta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Período certificación --></label>
+        <name>Periodo_certificacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Período control documentación --></label>
+        <name>Periodo_control_documentacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Porcentaje entregado --></label>
+        <name>Porcentaje_entregado__c</name>
+    </fields>
+    <fields>
+        <help><!-- Ingresar unicamente si el proveedor de la factura difiere del proveedor de la OC --></help>
+        <label><!-- Proveedor de la Factura --></label>
+        <name>Proveedor_de_la_Factura__c</name>
+        <relationshipLabel><!-- Facturas (Proveedor de la Factura) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Proveedor de la OC --></label>
+        <name>Proveedor_de_la_OC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proveedor para libro compras --></label>
+        <name>Proveedor_para_libro_compras__c</name>
+    </fields>
+    <fields>
+        <help><!-- Completar SOLO para Facturas de Venta.
+Tildar si la Factura es una proyección de honorarios futuros. --></help>
+        <label><!-- Proyectado --></label>
+        <name>Proyecci_n__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remito --></label>
+        <name>Remito__c</name>
+        <relationshipLabel><!-- Facturas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Responsable Autorización --></label>
+        <name>Responsable_Autorizacion__c</name>
+        <relationshipLabel><!-- Facturas (Responsable Autorización) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Responsable carga --></label>
+        <name>Responsable_carga__c</name>
+        <relationshipLabel><!-- Facturas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Responsable de revisión --></label>
+        <name>Responsable_de_revision__c</name>
+        <relationshipLabel><!-- Facturas (Responsable de revisión) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sociedad --></label>
+        <name>Sociedad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sociedad que desarrolla --></label>
+        <name>Sociedad_que_desarrolla__c</name>
+        <relationshipLabel><!-- Facturas (Sociedad que desarrolla) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tipo de factura --></label>
+        <name>Tipo_de_factura__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo impuesto 1 --></label>
+        <name>Tipo_impuesto_1__c</name>
+        <picklistValues>
+            <masterLabel>IIBB</masterLabel>
+            <translation><!-- IIBB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IIBB Provincia</masterLabel>
+            <translation><!-- IIBB Provincia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IVA</masterLabel>
+            <translation><!-- IVA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percepción IVA</masterLabel>
+            <translation><!-- Percepción IVA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo impuesto 2 --></label>
+        <name>Tipo_impuesto_2__c</name>
+        <picklistValues>
+            <masterLabel>IIBB</masterLabel>
+            <translation><!-- IIBB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IIBB Provincia</masterLabel>
+            <translation><!-- IIBB Provincia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IVA</masterLabel>
+            <translation><!-- IVA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percepción IVA</masterLabel>
+            <translation><!-- Percepción IVA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo impuesto 3 --></label>
+        <name>Tipo_impuesto_3__c</name>
+        <picklistValues>
+            <masterLabel>IIBB</masterLabel>
+            <translation><!-- IIBB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IIBB Provincia</masterLabel>
+            <translation><!-- IIBB Provincia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IVA</masterLabel>
+            <translation><!-- IVA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percepción IVA</masterLabel>
+            <translation><!-- Percepción IVA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total recibos --></label>
+        <name>Total_recibos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Coeficiente provisorio --></label>
+        <name>coeficiente_provisorio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Es comprobante unico? --></label>
+        <name>es_comprobante_unico__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importe letras --></label>
+        <name>importe_letras__c</name>
+    </fields>
+    <fields>
+        <label><!-- observaciones --></label>
+        <name>observaciones__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Factura</layout>
+        <sections>
+            <label><!-- Encabezado --></label>
+            <section>Encabezado</section>
+        </sections>
+        <sections>
+            <label><!-- Importes --></label>
+            <section>Importes</section>
+        </sections>
+        <sections>
+            <label><!-- Unicamente comprobantes constructora --></label>
+            <section>Unicamente comprobantes constructora</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Para cargar una factura real es necesario declarar el proveedor de la factura --></errorMessage>
+        <name>Controlar_que_este_cargado_el_proveedor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La fecha de ingreso debe ser el dia de hoy --></errorMessage>
+        <name>Fecha_ingreso_diferente_a_hoy</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El formato valido es mm-yyyy --></errorMessage>
+        <name>Formato_periodo_control_documentacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El formato de números de factura deben ser 0000-00000000
+4 digitos del punto de venta
+-
+8 digitos del numero de comprobante --></errorMessage>
+        <name>Formato_valido</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El formato valido para numeor de nota de credito es 0000-00000000 --></errorMessage>
+        <name>Formato_valido_nc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puede cambiar la fecha de ingreso --></errorMessage>
+        <name>No_se_puede_cambiar_fecha_ingreso</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El formato valido es mm-yyyy --></errorMessage>
+        <name>periodo_certificacion</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,10 @@
+Se aprobo la preparacion de la orden de pago para el proveedor {!Orden_de_pago__c.Proveedor__c} 
+
+
+Monto: {!Orden_de_pago__c.Monto__c} 
+Fecha de pago estimada: {!Orden_de_pago__c.Fecha_de_pago__c} 
+Orden de pago: {!Orden_de_pago__c.Name}
+
+Link de la OP: {!Orden_de_pago__c.Link}
+
+Comentarios: {!ApprovalRequest.Comments}

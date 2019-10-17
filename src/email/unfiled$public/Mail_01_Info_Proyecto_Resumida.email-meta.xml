@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Mail-01-Info Proyecto Resumida</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Mail-01-Info Proyecto Resumida</name>
+    <style>none</style>
+    <subject>¡Oportundad de inversion! Único Co-Living en la 9 de Julio</subject>
+    <textOnly>Buenos días {!Lead.Name},
+
+Mi nombre es (nombre del remitente) y pertenezco al equipo comercial de Rosbaco &amp; Partners.
+Aprovechando tu interés en nuestro proyecto de Co-Living “9 de Julio”, situado en Bernardo de Irigoyen 1142, San Telmo, CABA, te adjunto una presentación para que puedas tener más información sobre este proyecto único.
+Este emprendimiento de Real Estate se basa en un concepto de vanguardia y está respaldado por Rosbaco &amp; Partners y Casa Campus, pionero en el concepto de Co-Living a nivel mundial. 
+Si te parece bien, me gustaría poder contactarte para charlar con mayor profundidad sobre tu interés, dudas o consultas que surjan al respecto. Por eso te pido que me envíes tus preferencias y datos de contacto (mail, llamada o Whatsapp) y en qué horario estarías más cómodo para que nos contactemos con vos.
+
+Podés formar parte de un emprendimiento único y con gran rentabilidad. No te pierdas esta oportunidad!</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Tarea</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Tareas</value>
+    </caseValues>
+    <fields>
+        <label><!-- Duracion --></label>
+        <name>Duracion__c</name>
+    </fields>
+    <fields>
+        <label><!-- EDT --></label>
+        <name>EDT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Es camino critico --></label>
+        <name>Es_camino_critico__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estado --></label>
+        <name>Estado__c</name>
+        <picklistValues>
+            <masterLabel>En licitacion</masterLabel>
+            <translation><!-- En licitacion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>En proceso</masterLabel>
+            <translation><!-- En proceso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>En subsanacion</masterLabel>
+            <translation><!-- En subsanacion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finalizado</masterLabel>
+            <translation><!-- Finalizado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No aplica</masterLabel>
+            <translation><!-- No aplica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No iniciado</masterLabel>
+            <translation><!-- No iniciado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pendiente</masterLabel>
+            <translation><!-- Pendiente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pendiente de resolución</masterLabel>
+            <translation><!-- Pendiente de resolución --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Fecha fin --></label>
+        <name>Fecha_fin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha inicio --></label>
+        <name>Fecha_inicio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gantt --></label>
+        <name>Gantt__c</name>
+        <relationshipLabel><!-- Tareas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Hito --></label>
+        <name>Hito__c</name>
+        <relationshipLabel><!-- Tareas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Id tarea --></label>
+        <name>Id_tarea__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nivel de esquema --></label>
+        <name>Nivel_de_esquema__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Predecesora --></label>
+        <name>Predecesora__c</name>
+        <relationshipLabel><!-- Tareas --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Se deben cargar los ID tareas separados por coma --></help>
+        <label><!-- Predecesoras --></label>
+        <name>Predecesoras__c</name>
+    </fields>
+    <fields>
+        <label><!-- Presupuesto base --></label>
+        <name>Presupuesto_base__c</name>
+        <relationshipLabel><!-- Tareas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Proveedor --></label>
+        <name>Proveedor__c</name>
+        <relationshipLabel><!-- Tareas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Requiere presupuesto? --></label>
+        <name>Requiere_presupuesto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Responsable --></label>
+        <name>Staff__c</name>
+        <relationshipLabel><!-- Tareas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tarea padre --></label>
+        <name>Tarea_padre__c</name>
+        <relationshipLabel><!-- Tareas (Tarea padre) --></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Tarea</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>
