@@ -1,4 +1,3 @@
-//test
 public class myCobroUnidadExtension {
 
     private final Cobro_unidad__c cobro;   

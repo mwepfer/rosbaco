@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Objetivo del mes</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Objetivos del mes</value>
+    </caseValues>
+    <fields>
+        <label><!-- Comercializadora --></label>
+        <name>Comercializadora__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mes --></label>
+        <name>Mes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meta en dolares --></label>
+        <name>Meta_en_dolares__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monto actual vendido --></label>
+        <name>Monto_actual_vendido__c</name>
+    </fields>
+    <fields>
+        <label><!-- Objetivo De Venta --></label>
+        <name>Objetivo_De_Venta__c</name>
+        <relationshipLabel><!-- Objetivos del mes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Proyecto --></label>
+        <name>Proyecto__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Objetivo del mes</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

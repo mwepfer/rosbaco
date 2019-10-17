@@ -9,10 +9,10 @@ private class certificacion_grid_all_editable_extTest {
         Id RecordTypeIdAccount = Schema.SObjectType.Account.getRecordTypeInfosByName().get('Proveedor').getRecordTypeId();
         Id RecordTypeIdAccountSociedad = Schema.SObjectType.Account.getRecordTypeInfosByName().get('Sociedad desarrolladora').getRecordTypeId();
         
-        Account a = new Account(name = 'test123', recordtypeid = RecordTypeIdAccount );
+        Account a = new Account(name = 'test123', recordtypeid = RecordTypeIdAccount , cbu__c = '1234567890123456789012');
         insert a;
 
-        Account so = new Account(name = 'test123', recordtypeid = RecordTypeIdAccountSociedad );
+        Account so = new Account(name = 'test123', recordtypeid = RecordTypeIdAccountSociedad , cbu__c = '1234567890123456789012');
         insert so;
         
         Moneda__c m = new Moneda__c(name = 'moneda test');
@@ -97,7 +97,8 @@ private class certificacion_grid_all_editable_extTest {
         certificacion_grid_all_editable_ext ext = new certificacion_grid_all_editable_ext(sc);
 
 
-        //ext.doSomething();
+        ext.saveChanges();
+        ext.newCertificacion();
         //ext.doSomethingMore();
         //List<Expensa_gasto_general__c> egg = ext.getCuotas();
         //System.assertEquals('/apex/success', nextPage);
