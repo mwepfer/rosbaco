@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Objetivo De Venta</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Objetivos De Venta</value>
+    </caseValues>
+    <fields>
+        <label><!-- Comercializadora --></label>
+        <name>Comercializadora__c</name>
+        <relationshipLabel><!-- Objetivos De Venta --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cumplimento --></label>
+        <name>Cumplimento__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meta en dolares --></label>
+        <name>Meta_en_dolares__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proyecto --></label>
+        <name>Proyecto__c</name>
+        <relationshipLabel><!-- Objetivos De Venta --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Ventas totales en el historial del comercial. --></help>
+        <label><!-- Ventas totales --></label>
+        <name>Ventas_totales__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Objetivo De Venta</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>
