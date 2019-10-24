@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Coordinador de obra --></label>
+    <name>Coordinador_de_obra__c</name>
+    <relationshipLabel><!-- Proyectos (Coordinador de obra) --></relationshipLabel>
+</CustomFieldTranslation>

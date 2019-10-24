@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Item_orden_de_compra__c</fullName>
+    <externalId>false</externalId>
+    <label>Item orden de compra</label>
+    <referenceTo>Item_orden_de_compra__c</referenceTo>
+    <relationshipLabel>Cronogramas entregas items OC</relationshipLabel>
+    <relationshipName>Cronogramas_entregas_items_OC</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

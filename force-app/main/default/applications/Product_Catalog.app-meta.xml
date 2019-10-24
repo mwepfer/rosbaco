@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <description>Manage all your product, documents while maintaining and invigorating your mobile Product Catalog.</description>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Product Catalog</label>
+    <logo>Catalog_Documents/AppLogo.png</logo>
+    <tabs>Catalog_Tab</tabs>
+    <tabs>Catalog_Order__c</tabs>
+    <tabs>standard-Product2</tabs>
+    <tabs>standard-Document</tabs>
+    <tabs>Catalog_Brander</tabs>
+</CustomApplication>

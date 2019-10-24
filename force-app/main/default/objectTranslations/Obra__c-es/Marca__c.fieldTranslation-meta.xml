@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Marca --></label>
+    <name>Marca__c</name>
+    <picklistValues>
+        <masterLabel>CO-LIVING</masterLabel>
+        <translation><!-- CO-LIVING --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MOOD</masterLabel>
+        <translation><!-- MOOD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NETTING</masterLabel>
+        <translation><!-- NETTING --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VIA</masterLabel>
+        <translation><!-- VIA --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

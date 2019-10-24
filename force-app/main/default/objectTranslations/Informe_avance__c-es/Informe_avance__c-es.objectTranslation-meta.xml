@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Informe avance</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Informe avances</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Informe avance</layout>
+        <sections>
+            <label><!-- Detalle de obra --></label>
+            <section>Detalle de obra</section>
+        </sections>
+        <sections>
+            <label><!-- Trabajos programados --></label>
+            <section>Trabajos programados</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Llerena_2655</fullName>
+    <columns>Obra__c</columns>
+    <columns>NAME</columns>
+    <columns>Estado__c</columns>
+    <columns>Metros_cuadrados__c</columns>
+    <columns>Valor_metro_cuadrado_Cash__c</columns>
+    <columns>Valor_de_la_unidad_efectivo__c</columns>
+    <columns>Propietario_principal__c</columns>
+    <columns>Fecha_boleto__c</columns>
+    <columns>Precio_de_venta__c</columns>
+    <columns>Monto_pagado_en_el_boleto__c</columns>
+    <columns>Fecha_control_planilla_sales__c</columns>
+    <columns>Observaciones__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Obra__c</field>
+        <operation>equals</operation>
+        <value>Llerena 2655</value>
+    </filters>
+    <label>Llerena 2655</label>
+</ListView>

@@ -1,5 +1,5 @@
 # SFDX App
-ROSBACO&PARTNERS soft
+
 ## Dev, Build and Test
 
 ## Resources

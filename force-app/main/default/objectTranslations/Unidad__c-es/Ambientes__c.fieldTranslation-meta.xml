@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Ambientes --></label>
+    <name>Ambientes__c</name>
+    <picklistValues>
+        <masterLabel>1 Ambiente</masterLabel>
+        <translation><!-- 1 Ambiente --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2 Ambientes</masterLabel>
+        <translation><!-- 2 Ambientes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3 Ambientes</masterLabel>
+        <translation><!-- 3 Ambientes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3 ambientes c/patio</masterLabel>
+        <translation><!-- 3 ambientes c/patio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3 ambientes c/terraza</masterLabel>
+        <translation><!-- 3 ambientes c/terraza --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4 Ambientes</masterLabel>
+        <translation><!-- 4 Ambientes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4 ambientes c/patio</masterLabel>
+        <translation><!-- 4 ambientes c/patio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4 ambientes c/terraza</masterLabel>
+        <translation><!-- 4 ambientes c/terraza --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Casa 3 amb duplex c/jardin y quincho</masterLabel>
+        <translation><!-- Casa 3 amb duplex c/jardin y quincho --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Casa 5 amb duplex c/jardin, quincho y hab. serv.</masterLabel>
+        <translation><!-- Casa 5 amb duplex c/jardin, quincho y hab. serv. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cochera</masterLabel>
+        <translation><!-- Cochera --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Duplex</masterLabel>
+        <translation><!-- Duplex --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Local</masterLabel>
+        <translation><!-- Local --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Monoambiente</masterLabel>
+        <translation><!-- Monoambiente --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oficina</masterLabel>
+        <translation><!-- Oficina --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

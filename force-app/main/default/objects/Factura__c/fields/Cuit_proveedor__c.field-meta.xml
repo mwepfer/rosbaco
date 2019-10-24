@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cuit_proveedor__c</fullName>
+    <externalId>false</externalId>
+    <formula>if ( Proveedor_de_la_Factura__c == &quot;&quot; , Orden_de_compra__r.Proveedor__r.CUIT__c , Proveedor_de_la_Factura__r.CUIT__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Cuit proveedor</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

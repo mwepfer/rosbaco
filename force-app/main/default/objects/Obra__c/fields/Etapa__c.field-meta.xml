@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Etapa__c</fullName>
+    <externalId>false</externalId>
+    <label>Etapa</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>En analisis</fullName>
+                <default>false</default>
+                <label>En analisis</label>
+            </value>
+            <value>
+                <fullName>En aprobacion de planos</fullName>
+                <default>false</default>
+                <label>En aprobacion de planos</label>
+            </value>
+            <value>
+                <fullName>Planos aprobados</fullName>
+                <default>false</default>
+                <label>Planos aprobados</label>
+            </value>
+            <value>
+                <fullName>En demolicion</fullName>
+                <default>false</default>
+                <label>En demolicion</label>
+            </value>
+            <value>
+                <fullName>Demolido</fullName>
+                <default>false</default>
+                <label>Demolido</label>
+            </value>
+            <value>
+                <fullName>En ejecucion</fullName>
+                <default>false</default>
+                <label>En ejecucion</label>
+            </value>
+            <value>
+                <fullName>Terminado</fullName>
+                <default>false</default>
+                <label>Terminado</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

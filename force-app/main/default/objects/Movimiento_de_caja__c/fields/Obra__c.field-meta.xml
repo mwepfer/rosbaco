@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Obra__c</fullName>
+    <externalId>false</externalId>
+    <formula>if( Expensa_unidad__r.Obra__c != null, Expensa_unidad__r.Obra__r.Name, 
+if( Orden_de_pago__r.Orden_de_compra__r.Obra__c != null, Orden_de_pago__r.Orden_de_compra__r.Obra__r.Name, 
+if( Plan_de_pago__r.Unidad__r.Obra__c != null , Plan_de_pago__r.Unidad__r.Obra__r.Name ,
+if ( Unidad__r.Obra__c != null, Unidad__r.Obra__r.Name, null ))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Obra</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

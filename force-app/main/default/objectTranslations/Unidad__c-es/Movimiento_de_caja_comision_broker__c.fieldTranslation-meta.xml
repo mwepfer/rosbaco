@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Movimiento de caja comision broker --></label>
+    <name>Movimiento_de_caja_comision_broker__c</name>
+    <relationshipLabel><!-- Unidades --></relationshipLabel>
+</CustomFieldTranslation>

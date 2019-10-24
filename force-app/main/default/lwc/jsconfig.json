@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "c/jscolor": [
+                "../staticresources/ProductCatalogResources/ProductCatalog/Libs/jscolor/jscolor.js"
+            ],
+            "c/revealJS": [
+                "../staticresources/ProductCatalogResources/ProductCatalog/Libs/revealJS/revealJS.js"
+            ],
+            "c/ss-gizmo": [
+                "../staticresources/ProductCatalogResources/ProductCatalog/Libs/salesforce1/fonts/ss-gizmo/ss-gizmo.js"
+            ],
+            "c/ss-pika": [
+                "../staticresources/ProductCatalogResources/ProductCatalog/Libs/salesforce1/fonts/ss-pika/ss-pika.js"
+            ],
+            "c/ss-standard": [
+                "../staticresources/ProductCatalogResources/ProductCatalog/Libs/salesforce1/fonts/ss-standard/ss-standard.js"
+            ]
+        }
+    }
+}

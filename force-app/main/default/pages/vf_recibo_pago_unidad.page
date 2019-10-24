@@ -1,0 +1,70 @@
+<apex:page standardController="Cobro_unidad__c" extensions="myCobroUnidadExtension"  >
+
+<html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Import the Design System style sheet -->
+  <apex:slds />
+</head>
+<body>
+
+  <!-- REQUIRED SLDS WRAPPER -->
+  <div class="slds-scope">
+    <!-- PRIMARY CONTENT WRAPPER -->
+    <div class="myapp">
+      <!-- SECTION - BADGE COMPONENTS -->
+      <section aria-labelledby="badges">
+        <div class="simple-grid" >
+        
+        <div class="slds-col--padded slds-grid slds-wrap">
+            <div class="slds-col--padded slds-medium-size_2-of-3 slds-theme--shade">
+                <h3 id="badges" class="slds-text-heading--medium slds-m-vertical--medium">
+                    Buenos Aires, {!day(today())} de {!CASE(MONTH(today()),
+                        1, 'Enero',
+                        2, 'Febrero',
+                        3, 'Marzo', 
+                        4, 'Abril', 
+                        5, 'Mayo', 
+                        6, 'Junio',
+                        7, 'Julio',
+                        8, 'Agosto',
+                        9, 'Septiembre',
+                        10, 'Octubre',
+                        11, 'Noviembre',
+                        12, 'Diciembre','none')} de {!year(today())}<br></br>
+                    <br></br>
+                    <br></br>
+                    Recibí de {!Propietario.name  } la cantidad de {!Cobro_unidad__c.Importe_cobrado__c  } {!Cobro_unidad__c.Moneda__r.name  } ({!numInWords} {!Cobro_unidad__c.Moneda__r.name  })<br></br>
+                    en concepto de pago de cuota número  {!Cobro_unidad__c.name  }, en referencia al edificio  {!Cobro_unidad__c.Unidad__r.Obra__r.name  } 
+                </h3>
+                <h3 id="badges" class="slds-text-heading--medium slds-m-vertical--medium slds-align_absolute-center">
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    Firma Representante<br></br>
+                    Rosbaco Partners S.A.<br></br>
+                </h3>
+            </div>
+            <div class="slds-col--padded slds-medium-size_1-of-3 slds-theme--shade">
+                <h3 id="badges" class="slds-text-heading--medium slds-m-vertical--medium">
+<apex:image id="theImage" value="{!'/servlet/servlet.FileDownload?file=' & '0691U000004M418QAC'}" width="100" />
+                </h3>            
+            </div>
+        </div>
+        </div>
+      </section>
+      <!-- / SECTION - BADGE COMPONENTS -->
+    </div>
+    <!-- / PRIMARY CONTENT WRAPPER -->
+  </div>
+  <!-- / REQUIRED SLDS WRAPPER -->
+</body>
+</html>
+
+</apex:page>

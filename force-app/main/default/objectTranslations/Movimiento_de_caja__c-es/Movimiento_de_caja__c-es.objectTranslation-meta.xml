@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Movimiento de caja</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Movimientos de caja</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Movimiento de caja</layout>
+        <sections>
+            <label><!-- Referencia --></label>
+            <section>Referencia</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- El campo observacion no puede estar vacio. --></errorMessage>
+        <name>Se_deben_completar_las_observaciones</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fecha_Vencimiento__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Completar SOLO para Facturas de Venta.
+Indicar fecha de vencimiento recurrente o de lo contrario la que figura en el contrato</inlineHelpText>
+    <label>Fecha Vencimiento</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

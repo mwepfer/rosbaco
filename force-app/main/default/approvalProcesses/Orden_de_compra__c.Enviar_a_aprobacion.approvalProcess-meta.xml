@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Sociedad__c</field>
+        <field>Obra__c</field>
+        <field>Proveedor__c</field>
+        <field>Fecha__c</field>
+        <field>Owner</field>
+        <field>Subtotal__c</field>
+        <field>Valor_Impuestos__c</field>
+        <field>Valor_total__c</field>
+        <field>Moneda__c</field>
+        <field>Condicion_de_pago__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <approvalActions>
+            <action>
+                <name>Aprobar_orden_de_compra</name>
+                <type>FieldUpdate</type>
+            </action>
+        </approvalActions>
+        <assignedApprover>
+            <approver>
+                <type>adhoc</type>
+            </approver>
+        </assignedApprover>
+        <description>Enviar una orden de compra a aprobar</description>
+        <label>Enviar a aprobacion</label>
+        <name>Enviar_a_aprobacion</name>
+        <rejectionActions>
+            <action>
+                <name>Rechazar_orden_de_compra</name>
+                <type>FieldUpdate</type>
+            </action>
+            <action>
+                <name>Renegociar_orden_de_compra</name>
+                <type>FieldUpdate</type>
+            </action>
+        </rejectionActions>
+    </approvalStep>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>Orden_de_compra__c.Estado__c</field>
+            <operation>equals</operation>
+            <value>Para aprobar</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalRecordLock>true</finalApprovalRecordLock>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>Enviar a aprobacion</label>
+    <nextAutomatedApprover>
+        <useApproverFieldOfRecordOwner>true</useApproverFieldOfRecordOwner>
+        <userHierarchyField>Manager</userHierarchyField>
+    </nextAutomatedApprover>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>false</showApprovalHistory>
+</ApprovalProcess>

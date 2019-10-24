@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Cotizacion del dolar al dia de la fecha. --></help>
+    <label><!-- Cotizacion de dolar --></label>
+    <name>Cotizacion_de_dolar__c</name>
+</CustomFieldTranslation>

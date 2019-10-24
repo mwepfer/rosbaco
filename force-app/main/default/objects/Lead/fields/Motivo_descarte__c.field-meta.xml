@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivo_descarte__c</fullName>
+    <externalId>false</externalId>
+    <label>Motivo descarte</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No le interesa la oferta actual de productos.</fullName>
+                <default>false</default>
+                <label>No le interesa la oferta actual de productos.</label>
+            </value>
+            <value>
+                <fullName>No responde llamadas / mensajes</fullName>
+                <default>false</default>
+                <label>No responde llamadas / mensajes</label>
+            </value>
+            <value>
+                <fullName>Problemas internos del candidato</fullName>
+                <default>false</default>
+                <label>Problemas internos del candidato</label>
+            </value>
+            <value>
+                <fullName>Compró en otro proyecto.</fullName>
+                <default>false</default>
+                <label>Compró en otro proyecto.</label>
+            </value>
+            <value>
+                <fullName>Otros</fullName>
+                <default>false</default>
+                <label>Otros</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

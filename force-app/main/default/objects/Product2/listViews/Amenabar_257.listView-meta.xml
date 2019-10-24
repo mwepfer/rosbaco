@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Amenabar_257</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>Unidad__c</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>Blurb__c</columns>
+    <columns>PRODUCT2.ACTIVE</columns>
+    <columns>Image_Display__c</columns>
+    <columns>Estado__c</columns>
+    <columns>Inventory__c</columns>
+    <columns>Metros_cuadrados_vendibles__c</columns>
+    <columns>Default_Price__c</columns>
+    <columns>Mobile_Ready__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Obra__c</field>
+        <operation>contains</operation>
+        <value>amenabar</value>
+    </filters>
+    <label>Amenabar 257</label>
+</ListView>

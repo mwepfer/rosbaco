@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Tipo --></label>
+    <name>Tipo__c</name>
+    <picklistValues>
+        <masterLabel>Club</masterLabel>
+        <translation><!-- Club --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Educacion</masterLabel>
+        <translation><!-- Educacion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Entretenimiento</masterLabel>
+        <translation><!-- Entretenimiento --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Espacio publico</masterLabel>
+        <translation><!-- Espacio publico --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Esparcimiento</masterLabel>
+        <translation><!-- Esparcimiento --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Institucion religiosa</masterLabel>
+        <translation><!-- Institucion religiosa --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Organizmo estatal</masterLabel>
+        <translation><!-- Organizmo estatal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Otro</masterLabel>
+        <translation><!-- Otro --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Restaurante</masterLabel>
+        <translation><!-- Restaurante --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transporte</masterLabel>
+        <translation><!-- Transporte --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

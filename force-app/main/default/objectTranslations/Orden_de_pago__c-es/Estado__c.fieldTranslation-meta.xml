@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Estado --></label>
+    <name>Estado__c</name>
+    <picklistValues>
+        <masterLabel>Anulada</masterLabel>
+        <translation><!-- Anulada --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aprobada</masterLabel>
+        <translation><!-- Aprobada --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>En stand by</masterLabel>
+        <translation><!-- En stand by --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ingresada</masterLabel>
+        <translation><!-- Ingresada --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pagada</masterLabel>
+        <translation><!-- Pagada --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pendiente aprobación</masterLabel>
+        <translation><!-- Pendiente aprobación --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Preparar pago</masterLabel>
+        <translation><!-- Preparar pago --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

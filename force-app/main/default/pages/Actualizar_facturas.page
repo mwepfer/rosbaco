@@ -1,0 +1,21 @@
+<apex:page standardController="Indicador__c" extensions="ActualizarFacturas" 
+action="{!doSomething}" recordSetVar="TestRecords">
+
+
+<apex:form >
+
+Se actualizaron 
+<apex:outputLabel id="one">{!name}</apex:outputLabel>
+ facturas
+<br></br>
+<h1>
+{!facturasPendientes} 
+
+</h1>
+<br></br>
+<br></br>
+<apex:commandButton action="{!doSomethingMore}" value="Actualizar facturas sin indicadores conocidos" id="theButton" rendered="{!facturasPendientes != NULL}"/>
+
+</apex:form>
+
+</apex:page>
