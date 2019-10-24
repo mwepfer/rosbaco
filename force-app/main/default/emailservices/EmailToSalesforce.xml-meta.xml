@@ -4,13 +4,6 @@
     <attachmentOption>All</attachmentOption>
     <authenticationFailureAction>Discard</authenticationFailureAction>
     <authorizationFailureAction>Bounce</authorizationFailureAction>
-    <emailServicesAddresses>
-        <authorizedSenders>matias.wepfer@rosbacogroup.com</authorizedSenders>
-        <developerName>emailtosalesforce1</developerName>
-        <isActive>true</isActive>
-        <localPart>emailtosalesforce</localPart>
-        <runAsUser>matias.wepfer@rosbacogroup.com</runAsUser>
-    </emailServicesAddresses>
     <functionInactiveAction>Bounce</functionInactiveAction>
     <functionName>EmailToSalesforce</functionName>
     <isActive>true</isActive>

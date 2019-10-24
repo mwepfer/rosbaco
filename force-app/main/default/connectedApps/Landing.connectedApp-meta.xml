@@ -4,12 +4,9 @@
     <label>Landing</label>
     <oauthConfig>
         <callbackUrl>https://mediacore.com.ar/salesforce1/</callbackUrl>
-        <consumerKey>3MVG9KsVczVNcM8xr6WnmMHU.y0sNhLnR_Ds_p5KYi_xRWo.UnUwUq0fhcAPhbNuXGtYBkiDp3MqHkUnjiOMn</consumerKey>
-        <isAdminApproved>true</isAdminApproved>
+        <consumerKey>3MVG98dostKihXN4xzr7fn85NE06JQKH8FAoQYwicp8jMNXxVigXXVWnJeR5PiignUEzTBfBoW2xSkjHSQwTG</consumerKey>
         <scopes>Api</scopes>
         <scopes>RefreshToken</scopes>
         <scopes>CustomPermissions</scopes>
     </oauthConfig>
-    <profileName>Landing</profileName>
-    <profileName>Usuario comercial</profileName>
 </ConnectedApp>

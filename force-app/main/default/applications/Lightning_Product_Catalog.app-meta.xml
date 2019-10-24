@@ -4,7 +4,6 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Lightning Product Catalog</label>
-    <logo>Catalog_Documents/AppLogo.png</logo>
     <tabs>Catalog_Order__c</tabs>
     <tabs>standard-Product2</tabs>
     <tabs>standard-Document</tabs>

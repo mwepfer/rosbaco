@@ -4,8 +4,7 @@
     <label>Area de clientes</label>
     <oauthConfig>
         <callbackUrl>https://www.rosbaco-group.com</callbackUrl>
-        <consumerKey>3MVG9KsVczVNcM8xr6WnmMHU.y9EW.65eBQ7q8rvsFrY19zwg_HT0clOsoy0zriE4VWsN6Xr3DUxBrVzBCnPC</consumerKey>
-        <isAdminApproved>false</isAdminApproved>
+        <consumerKey>3MVG98dostKihXN4xzr7fn85NE06JQKH8FAoQ9nplTOFTmAhjOxN0FTdsmtlctk2j_3D_1NMaLH3edyz3_6JC</consumerKey>
         <scopes>Basic</scopes>
         <scopes>Api</scopes>
         <scopes>Web</scopes>

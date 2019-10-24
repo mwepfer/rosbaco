@@ -5,7 +5,6 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Product Catalog</label>
-    <logo>Catalog_Documents/AppLogo.png</logo>
     <tabs>Catalog_Tab</tabs>
     <tabs>Catalog_Order__c</tabs>
     <tabs>standard-Product2</tabs>
