@@ -23,7 +23,6 @@
     <tabs>Indicador__c</tabs>
     <tabs>Expensa__c</tabs>
     <tabs>Responsable__c</tabs>
-    <tabs>Objetivo_De_venta__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Administracion_UtilityBar</utilityBar>
 </CustomApplication>

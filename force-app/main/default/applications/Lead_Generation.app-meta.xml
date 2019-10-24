@@ -27,7 +27,6 @@
     <tabs>standard-Lead</tabs>
     <tabs>standard-Campaign</tabs>
     <tabs>standard-CollaborationGroup</tabs>
-    <tabs>Objetivo_De_venta__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Lead_Generation_UtilityBar</utilityBar>
 </CustomApplication>

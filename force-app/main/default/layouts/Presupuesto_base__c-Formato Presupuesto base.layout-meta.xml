@@ -111,6 +111,8 @@
         <fields>Cantidad__c</fields>
         <fields>Valor_unitario__c</fields>
         <fields>Subtotal__c</fields>
+        <fields>Valor_impuestos__c</fields>
+        <fields>Valor_total__c</fields>
         <fields>Fecha_estimada_ejecucion__c</fields>
         <relatedList>Presupuesto_detalle__c.Presupuesto_base__c</relatedList>
     </relatedLists>

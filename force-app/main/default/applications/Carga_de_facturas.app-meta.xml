@@ -28,7 +28,6 @@
     <label>Carga de facturas</label>
     <navType>Standard</navType>
     <tabs>standard-Account</tabs>
-    <tabs>Objetivo_De_venta__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Carga_de_facturas_UtilityBar</utilityBar>
 </CustomApplication>

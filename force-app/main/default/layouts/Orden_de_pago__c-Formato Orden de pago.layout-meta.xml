@@ -19,6 +19,10 @@
                 <field>Factura__c</field>
             </layoutItems>
             <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Numero_de_factura__c</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Monto__c</field>
             </layoutItems>

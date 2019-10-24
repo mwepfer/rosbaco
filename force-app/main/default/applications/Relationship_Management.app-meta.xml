@@ -29,7 +29,6 @@
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-ContentNote</tabs>
     <tabs>standard-Task</tabs>
-    <tabs>Objetivo_De_venta__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Relationship_Management_UtilityBar</utilityBar>
 </CustomApplication>

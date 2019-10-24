@@ -16,7 +16,6 @@
     <tabs>Lote__c</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-report</tabs>
-    <tabs>Objetivo_De_venta__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Desarrolladora_UtilityBar</utilityBar>
 </CustomApplication>

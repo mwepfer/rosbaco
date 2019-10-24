@@ -13,7 +13,6 @@
     <tabs>standard-Account</tabs>
     <tabs>standard-Case</tabs>
     <tabs>standard-report</tabs>
-    <tabs>Objetivo_De_venta__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Gestion_Post_Venta_UtilityBar</utilityBar>
 </CustomApplication>

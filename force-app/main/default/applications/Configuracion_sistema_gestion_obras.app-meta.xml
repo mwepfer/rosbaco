@@ -25,7 +25,6 @@
     <tabs>Indicador_valor__c</tabs>
     <tabs>Planificacion_avance__c</tabs>
     <tabs>Responsable__c</tabs>
-    <tabs>Objetivo_De_venta__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Configuracion_sistema_gestion_obras_UtilityBar</utilityBar>
 </CustomApplication>

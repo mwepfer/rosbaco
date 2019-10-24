@@ -179,11 +179,7 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
-    <tabs>Objetivo_De_venta__c</tabs>
     <workspaceConfig>
-        <mappings>
-            <tab>Objetivo_De_venta__c</tab>
-        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>

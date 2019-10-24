@@ -34,7 +34,6 @@
     <tabs>standard-report</tabs>
     <tabs>standard-ContentNote</tabs>
     <tabs>standard-File</tabs>
-    <tabs>Objetivo_De_venta__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Sales_UtilityBar</utilityBar>
 </CustomApplication>

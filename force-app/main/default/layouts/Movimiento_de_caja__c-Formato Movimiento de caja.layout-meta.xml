@@ -34,6 +34,10 @@
                 <behavior>Readonly</behavior>
                 <field>Obra__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Cotizacion_de_dolar__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

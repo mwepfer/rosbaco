@@ -20,4 +20,8 @@
             <section>Vínculos personalizados</section>
         </sections>
     </layouts>
+    <validationRules>
+        <errorMessage><!-- El campo observacion no puede estar vacio. --></errorMessage>
+        <name>Se_deben_completar_las_observaciones</name>
+    </validationRules>
 </CustomObjectTranslation>
