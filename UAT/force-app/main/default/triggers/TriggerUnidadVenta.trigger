@@ -1,4 +1,4 @@
-//hacer prueba
+//prueba para github
 trigger TriggerUnidadVenta on Unidad__c (after insert, after update, before delete) {
     if (Trigger.isInsert ) {
         for(Unidad__c u : Trigger.New) {
